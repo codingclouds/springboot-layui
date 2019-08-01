@@ -33,7 +33,7 @@ $(function() {
                 ,{field:'parentId', title:'parentId'}*/
                 ,{field:'pname', title:'父级菜单',align:'center',width:"10%"}
                 ,{field:'name', title:'菜单名称',align:'center'/*,width:"10%"*/}
-                ,{field:'descpt', title:'描述',align:'left'/*,width:"15%"*/}
+                ,{field:'descpt', title:'描述',align:'center'/*,width:"15%"*/}
                 ,{field:'url', title:'菜单url',align:'left',width:"20%"}
                 ,{field:'createTime', title:'创建时间',align:'center'/*,width:"10%"*/}
                 ,{field:'updateTime', title:'更新时间',align:'center'/*,width:"10%"*/}

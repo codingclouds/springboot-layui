@@ -14,6 +14,7 @@ $(function() {
             elem: '#uesrList',
             url:'/user/getUserList',
             method: 'post', //默认：get请求
+            title: '角色表',
             cellMinWidth: 80,
             page: true,
             request: {
@@ -27,7 +28,7 @@ $(function() {
                 dataName: 'list' //数据列表的字段名称，默认：data
             },
             cols: [[
-                {type:'numbers'}
+                 {type:'numbers'}
                 ,{field:'sysUserName', title:'用户名',align:'center'}
                 ,{field:'roleName', title:'角色类型',align:'center'}
                 ,{field:'userPhone', title:'手机号',align:'center'}
@@ -43,9 +44,11 @@ $(function() {
                 console.log(curr);
                 $("[data-field='userStatus']").children().each(function(){
                     if($(this).text()=='1'){
-                        $(this).text("有效")
+                        // $(this).text("有效")
+                        $(this).html("<button type='button' class='layui-btn layui-btn-normal layui-btn-radius layui-btn-xs'>有效</button>");
                     }else if($(this).text()=='0'){
-                        $(this).text("失效")
+                        // $(this).text("失效")
+                        $(this).html("<button type='button' class='layui-btn layui-btn-danger layui-btn-radius layui-btn-xs'>失效</button>");
                     }
                 });
                 //得到数据总量

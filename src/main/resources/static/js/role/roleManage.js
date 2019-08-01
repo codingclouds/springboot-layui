@@ -35,15 +35,17 @@ $(function() {
                 ,{field:'permissions', title:'权限',align:'center'}
                 ,{field:'createTime', title:'创建时间',align:'center'}
                 ,{field:'updateTime', title:'更新时间',align:'center'}
-                ,{field:'roleStatus', title:'是否有效',align:'center'}
+                ,{field:'roleStatus', title:'是否有效',align:'center',width:'10%'}
                 ,{fixed:'right',title:'操作',align:'center', toolbar:'#optBar'}
             ]],
             done: function(res, curr, count){
                 $("[data-field='roleStatus']").children().each(function(){
                     if($(this).text()=='1'){
-                        $(this).text("有效")
+                        // $(this).text("有效")
+                        $(this).html("<button type='button' class='layui-btn layui-btn-normal layui-btn-radius layui-btn-xs'>有效</button>");
                     }else if($(this).text()=='0'){
-                        $(this).text("失效")
+                        // $(this).text("失效")
+                        $(this).html("<button type='button' class='layui-btn layui-btn-danger layui-btn-radius layui-btn-xs'>失效</button>");
                     }
                 });
                 pageCurr=curr;
