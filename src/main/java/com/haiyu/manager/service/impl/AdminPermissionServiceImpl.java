@@ -94,7 +94,7 @@ public class AdminPermissionServiceImpl implements AdminPermissionService {
     }
 
 
-    @Cacheable(value = "get_permission_list_cache",key = "'permission_list_'+#pageNum+'_'+#pageSize")
+//    @Cacheable(value = "get_permission_list_cache",key = "'permission_list_'+#pageNum+'_'+#pageSize")
     @Override
     public PageDataResult getPermissionList(Integer pageNum, Integer pageSize) {
         logger.info("---------------------------------------");

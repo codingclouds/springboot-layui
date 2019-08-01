@@ -4,6 +4,8 @@
 var pageCurr;
 var form;
 $(function() {
+    $('.loading').animate({'width':'50%'},50); //第四个进度节点
+
     layui.use('table', function(){
         var table = layui.table;
         form = layui.form;
@@ -29,10 +31,10 @@ $(function() {
                 {type:'numbers'/*,width:"5%"*/}
                 /*,{field:'id', title:'id'}
                 ,{field:'parentId', title:'parentId'}*/
-                ,{field:'pname', title:'父级菜单',align:'center'/*,width:"10%"*/}
+                ,{field:'pname', title:'父级菜单',align:'center',width:"10%"}
                 ,{field:'name', title:'菜单名称',align:'center'/*,width:"10%"*/}
-                ,{field:'descpt', title:'描述',align:'center'/*,width:"15%"*/}
-                ,{field:'url', title:'菜单url',align:'center'/*,width:"15%"*/}
+                ,{field:'descpt', title:'描述',align:'left'/*,width:"15%"*/}
+                ,{field:'url', title:'菜单url',align:'left',width:"20%"}
                 ,{field:'createTime', title:'创建时间',align:'center'/*,width:"10%"*/}
                 ,{field:'updateTime', title:'更新时间',align:'center'/*,width:"10%"*/}
                 ,{fixed:'right',title:'操作',align:'center', toolbar:'#optBar'/*,width:"25%"*/}
@@ -189,3 +191,8 @@ function del(obj,id) {
         });
     }
 }
+
+$(document).ready(function(){
+    $('.loading').animate({'width':'100%'},50); //第四个进度节点
+    $('.loading').fadeOut();
+});

@@ -2,815 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8cc1eb-920c-4ecf-bf29-b8686838fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_theborakompanioni_thymeleaf_extras_shiro_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_all_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_guice_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/COMMIT_EDITMSG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/FETCH_HEAD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/HEAD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/description" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/applypatch-msg.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/commit-msg.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/fsmonitor-watchman.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/post-update.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/pre-applypatch.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/pre-commit.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/pre-push.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/pre-rebase.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/pre-receive.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/prepare-commit-msg.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/hooks/update.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/info/exclude" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/logs/HEAD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/logs/refs/heads/master" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/logs/refs/remotes/origin/HEAD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/00/09f32b6962f73070eb8d775fb7f6dc87cb7476" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/01/cdb39aa723b98e8cf1169e8658c80c0aca50a3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/02/f050eaf21f1094ce3401871da3136d36775b7b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/04/d51653c07c0929d8708ff4f72ed68d783724f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/05/182cabf1a60d3e4c7128ed89cdc14aa14425a9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/05/fb21c930117faa019420229a6399af3855bd91" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/06/209c393adbe35b2b4e05792da8a8d3ef54e1e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/06/c4a0779b1c5230468dd06161f0f984091316f9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/09/85a7fff91f186dcc218b498da311e196c37b7f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/09/9b930526290732c2324abecb3e2b0d57cfb69d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/09/c1092c64f3143c6faf707b7ea63008d19bc8a4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/09/eba47707e726d1990d145b625c3e0b8f8eac18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/0a/3faa0cb7976f352ad2398d7024359b7de25cbc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/0b/26b9b041838b36cfdf1e5390ed2bdb420aebb3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/0c/a1a9ec580eb8bca71f784dc7113f8e93946780" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/0d/330f953747da859f4e4726f4ede4728eb7150f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/0e/01fa4b1b711f278359747609bd5133401c51c5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/0e/67f0bd650bc0ad761d5ec5343178248b52f5fe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/0f/870348807f74bccd34f4480619689f6d4f9b90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/10/43fae9b24801c6f2a16c6a273841a59d83feae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/10/d4fe47497118d8526bb577b7ccfbd46017965e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/12/0f28c5bce0f3f8c52b8844054f0e5b13a07231" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/12/219af415048c91579ba42496f14a417caae336" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/13/a890f58b4024f1c9e1dc7818c1717097c74382" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/15/9f8f9ed9643f48165e10d71a68e2820ff15cbc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/15/d1a912c10ccb38e8cd5693eb27115934f230b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/16/4596468071a2783ac199faaea7826ef66f5a33" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/18/186d5598836fa2ca9b83765c76387016aaff34" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/1b/a8b53ed78e33056ee6f4688c284bed4bc0f8e9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/1d/2377f0536cf7f1f95396c5c02a7d7586728672" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/1d/725b067186eb30405a35edcbc8b7df47c6bb0d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/1d/b6939020bbb680e3d644e343b84f90411f25fb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/1e/712a770f5f64700b9ec76d948116ab40559da4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/1e/d0520bd7df96f54ff57e9a65039878f3d6ea5d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/1f/4afeda6014bb9a91373b20a12673fdd1dcfd47" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/1f/5782cf7c763a6a9d6bea5e028e09fe91d697ed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/1f/91a404fe8246b9f4072fea5f22e50349abb2f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/1f/ff0189d10a2243e390aeb145c3a332cd6009d3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/20/f176585a2b44b6f9d66fac8afb9d8519401dbd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/23/44e4b3d6a01a8fe9021865c90208076ea19e9e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/26/2bbf3ebb2fc8907d42e09df1fba757ef86a594" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/27/cc2a24bed273c6f6d7c3183babc116f7558f07" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/28/f048be347348227208dbde8ec7f06813eff212" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/29/1fab3fbce08caa586f15077f688bd2b9541e17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/29/25b6aacdfc62eb2b26a3e026a135ab047c664e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/29/f70e5f29f11be420f6c3b1978c988587c7707d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/2a/282d3f06026ad6a4497723625e8f63a232dd4e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/2a/45f197cd984474f251d86cb634c7a504f121eb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/2b/b8ded1371d38cbe66fa1d45b270bf5007f9043" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/2c/5219f49305b2480a304ffde213009c371a6529" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/2f/582fa4dee85a90aa4472d2ebd649c54f582dc2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/30/8eb2bf6a5061b4513ad0c19784d0394b7c9d35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/32/5ae05ecf40cf65360bcc51e0d943f7e2daea03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/32/7bbd4bd4c4dfe5672ce4ee720a70ba4ef85f7f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/33/6345d282bdcac46c751ffec9fad565d14774a3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/34/ff1895d0f8695befb4f3464df2b15bcb45aafa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/35/72d1ea885850638989ce103b006b06e88c9e55" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/36/3d4ae7bf2e2a93e94fc73966fbee0d5c465631" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/37/e92ebe95ba0f621073b566b3cd84cc5de3313d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/38/9997788e9e1a4163d1a7ab38d824ac08f96847" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/3a/68f76927887b2eb62d3491243dd5d8d3b17fec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/3a/b6a2919138e12c13efd0a3f6d6d0bd178ea39d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/3b/169f9549c1f3ebf5cdc98fafc74e1b77c4d9e4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/3e/1b04d7ea5975408b82ad504d2dc56a9671505b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/3f/37c24cb66f3eecc156b0194cb4e4d79548cc2d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/3f/e82cce88b41d89fd17381b88269853ff2db7e5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/41/fa4211aca6bcf39950819fdca6509115e5346b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/43/b70d5704dcafdf07db927c573ac12951bc840a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/43/f79b8b5f57f5e5a3c608bfb9b4d69f173a58c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/45/bab80b0bafadf15332151c4206269d0510f9cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/45/c384559e0ea8e7a75775cffc1b6a7ac807ea2a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/46/67f879f6b6cb957ccb4c0732cf1a6f8b83e4a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/46/d1a0bccaf9debf90305e2182297cc4f9ec670e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/47/74f113fa95c724eef9070224f98946c8073ec2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/47/cc907214335c2b114f0a440b80c33a97c60ad8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/4a/773feed9398b0e0a56c69d91ddea3aaf4d7d32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/4b/c410e31577dd80b320434cef2034e34f96f96e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/4b/d55af14c62da737a95d28b8ddf02725fa58931" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/4b/fbc88aefec9e7f59501c26df0d4be1c06cc4a2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/4e/8f4f60160edb63c03ded92af59147fe3c6a4d4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/55/7c07519fe1fe63c2e2b713d9fbd74b949196b2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/58/e09a63368155da0f22099d4a4a0d765c4d3455" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/5c/07c2f506c6ca8be66dc78b96de1a35c285fe60" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/5d/d96d4024d79e462801c1d51ad6273df2b86b64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/5e/de667c6a2a09ef395b73e25a8574bc332e488d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/5f/939191ee439f70dfb101611d4ab3e49e54154b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/60/2a2c283cafce920274760762a8d170c87762da" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/62/404957f8b6f480ef239386fdd2e4c30c5da7c9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/62/8b1dd7cf2ba4ec02020bfbf2e09ccde8a80975" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/65/d86a566080e4e0cfe1b51d6412e3dc8987cc25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/66/c793370b9f26860ba4f348503618d88eceeecf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/67/3e705e65d2a0a8f85b66ff0669602e9d32e32f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/67/558f0f13098ef7853d974bd3893f27cbd1cac1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/68/d2d73322ba051dcec0851bd701169d651fa961" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/68/f06d9149c19c9b17b5f07924ce1986faa86fe1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/69/23a09412399f5cb9f53957b63352dc46705a18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/6a/bb86bee1e99b2e5345014f67af09dc17690f03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/6a/c65cf15be1a723be3ae6a13bf9bc535f1b6e95" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/6b/b49c0286a200255002116795ef64f9019c2dbb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/6c/6d966a587432940fbea96a2dff5133efd495af" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/6d/a329092d51da39f16aebd1ac8c752c00848f47" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/6e/af3aba81de0dfecb9c79e9ee3dee0ad3042b09" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/71/dd51943e9cade77c8063b0cae6386b34390946" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/72/2d4f6cc45b6181826c7d0d6f5796ccec7a5452" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/72/e10dddcfd81cd7ca3db2991760a94d00ca6dc7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/73/7e3ca38c79f1f2713df3c850dcc91fc1351241" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/76/fa8e8bd6f3b65681a0c5ad61211a51e18474c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/7c/fe7bf2a1ea67e0dce3e36f06cbfbaeb17db212" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/7d/56ec22029f89edab9d7b9f37000385c61f292c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/7e/853f1fa92530322b2767f2389080f90bb9fc8e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/7e/ef370a0679cca18d654a894b487d916c2d836d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/7f/d4f85c85a8a143fd88f4603c36d083b74abd51" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/7f/dfac96638407bdbe9146b76e4f300d1244a993" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/80/8606a88e3381e2dc4c001064332dc3b6ddbfa7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/82/000735940170359ef99f518571a9188b2104a0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/82/7b694fc70d49bf2307e57d2947c275178ef97d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/82/b2b30a74cab1216bdf61b3bac2c71ad991a509" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/84/f262037aa7e2ec5e02fabd3f687d2b88631702" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/85/a118801545940043b9dd3d521f49a6e53f692f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/89/317cbc6f6506ee9c1581e151eaf9fa410db96c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/8a/dc5bd9b3c4ac42c66c47b487e969353237c676" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/8c/7cf331b2ce9207a7d8f7f8c698a6546a0cea82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/8c/d9616f31e7cdea98fa9d5dbc898ae3e0074971" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/8f/338b43803e9b205dd96e6def14a56e7dc1e05b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/8f/b60192d378759239a3ecbf60eac8c8de446e9c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/90/b6ca981acf175e350d9eec486b263f478b3958" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/91/1591dd5c25c86d0d123a9a94461b2bc88964c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/92/ea6aedf7a8b7db9536e2b6806ef125ca522bad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/93/127efe1c74b4119bf18095825503d8723b98b8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/93/1b7a87e9be1a376dd28296470d20c6a065529b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/94/9dde59a4a4ecc12ce85faeccc957fdb2f05399" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/97/2348252558ae785698914b8da4e43dd347f2a3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/97/68e909f1002a0fda920a82741d5bbc1c546c25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/98/cec183e4713273f7afbaa9599dd28cbc33567c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/99/95201dbac5852e724d3b28d69843283f954b77" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/9b/0dcb118706b9f28c6c28032239dd249382ff04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/9d/f3cb0ba68b0f215e3eb6b21ac8cf15d2dc0020" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/9e/183a99745fbe806e4c1a9ffb90032dfdc662a9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/9e/418dfe8d2b63aef14c9106db5f57576c895a33" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/9f/21042358f2c0e5ab373a21cf641ad9aee84120" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/a0/5b87c95ad303d9fd2fc9ad28200908773b4d68" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/a2/5c61a93d5876e942f5c6827d67716696ffa4a0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/a5/b96b01e2384f4eb402a22f55ed0d4e1358d6b7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/a6/891bc3d2004137d4c968df9c156fcda9da4912" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/a7/4e8e2caa7522f7143cf3230dbd78305bbde690" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/a7/c954eb907ccdb6b71103bd566d7ca08d32736d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/a9/71e361db7b4211e60a9a94b077cb0d5f00a51a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/a9/73eb3728c7bd7ff2b91a149f679a1539158b58" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/aa/7510c94b6fb1e3d33bdb7a8f234c33e1395487" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/ad/6c665617a13cfd5c6b7577cd09a9a6466fdd44" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/ae/2cbd9fa22559ed75f5b66bbb93ca457aca4d10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/ae/37877138358fe0246a3847eb98efa829f41ec6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/af/c110101ba85668ebccde804ef9c8bc30029cc8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/b0/20be71a3c9b89979193bb5fa4c674ce78cdd80" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/b1/3761e3de9122c8962ea986f3189c3ebb300bb3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/b4/edd4a36dbb12345256e353c646788559716787" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/b5/8205516a44f5ed01de682b6beb76710ec30ba1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/ba/0a4484d5633eadfc0bcd3f9a4e9cba083bfa2e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/ba/168943689a4d322ee3c0500daf8a01a7d0eb78" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/bb/5eaff2dc62ab62f8fdc7bce9d431cc70837eda" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/bb/88d1cce964ef6bbc54f26b04d48875344c113c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/bc/703a60671976f56f61a91f97385b42e5608a73" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/bc/7efa537a94e61be5c9167028bc8dfdda11daa5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/bc/dfde410cace0a6508e9cc89fc07e7dce088497" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/bd/272b645bc80afdd6e3d14e38baf5eeb9560e43" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/c0/343d24909d7ff6e534e7074bfeac30d5bf7989" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/c0/a9988b56ce4c9ce6d6c627f8acd49b5d9f57da" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/c3/f1ef2920b1b3ddccb4e1e6bfc086fbac6db142" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/c4/1875d3329587f05393bb1ef467ac370486543f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/c4/a46aef61eab843e4de79e0dc28eea767bd97e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/c6/14aa0c3caffebbdd00c33c3f3c734db5ba4fbe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/c6/bd311738636c51bc62522115937577953c1e5b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/c7/141a44803052cb4811e5d42fe39c4f2a409d7b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/c8/267c4f4db2a975adf6b26743b91a1cb8d2f7aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/c9/0fcb32376f37cbb6ba11cb6709a56804e283c4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/cd/dcbcc009ace9630838e3b9d330cd5659196e41" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/cf/34e1f1c018ca6c0d9e8b4fe62b25a110b9980d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/cf/6f175f709f191176585c580bd48d7ec6bab617" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/cf/d2ad6cd7ca14225f02901b7bda7114e37e3c82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/cf/eecd1f5838d148ee7188f460e4a312bf5668e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/d0/a0233f62b342fcf3734f5c1510b243d32efc9b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/d0/f7637f21346260c33697c2859c11ee2dc8a7b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/d1/6f76217bbe602751182ef24589e2b82123bc42" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/d1/b2e1c2c23211d1c74bc543f88e83827cf6e7f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/d3/46e39ffbf1be0de20b09f974d4c2d356575136" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/d4/ee77aafb8e925b8ebaefbc4a9e190941495fa2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/d7/157d429208da23fea5a0ab61d4d72e0e08c226" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/d9/4d5b723a0bbb07097767e79206971bc6a3e44a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/da/7d8ec76738da1348c628836b9697438e08eae4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/dd/be1747e7dedffd4803b30e46b38185c50e7c23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/dd/d00cbab761ab681a418007e38cee3df6b68959" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/dd/f0b016fe3faad9161cf5ec556a568f882caeaa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/de/06641d22b21bd0d57978aa1d94b73bd3de5cfc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/de/42214d5746298aece102c9dc06902938162a96" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/de/7c93ea36b35fbe190bc5d306d00e7c9c7e3b8c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/de/f87bf608bb7d0c9d505ac1ede41e5701a85341" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/df/e0770424b2a19faf507a501ebfc23be8f54e7b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/e0/acbb117ef76c98bf6d25724daf0a79ddc4b6b1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/e0/b4f7ee323a1dde1154e42d91f39f7c3c6566a7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/e0/c09b73d0b318c0b5cb2f0ea79318e2aead5ec9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/e3/3f3e5bf09af77d8f54d27ec4b9b95008cb3e1e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/e6/8fc5d948b8c8d058e68de4d2f98d9e7b9e648a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/e7/cb4f737e305d7f68faf52bbb3672fa996798e3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/e8/41156097898edc22f0b34151c48c5ecab59f28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/ea/2f096a94d5dd024152dd8e7dedafb73052bd2f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/ea/c4a79594506a5e7735747543938d7e3be5e8b0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/eb/b5adbf891e3d0863ba5d38f9be5e65997f65ee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/ee/2ba56e5911e78de0ade54cb9f19bb3cc6d82fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/ef/1ac8dc25d96b77ef52e3e7931ec28cb0892147" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f0/155ee83ba8140296bd3291a410a29dd8164ae5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f1/1d0d54c63e1985a3540a3f3c484a02a4bba879" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f1/d0ba645900b8a491de22166b9215ba440f0c6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f3/641a176825e7de4a37725ca4863e7971e5511d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f3/71b854fb8c6b9b4ab012b2b7d8c252e9c1f5a5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f4/8304d9a71d3f0abcdaeb601b266c403e8465a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f4/b8031f5a20e835bdc314aa9e069ebe9c5b2a0f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f6/2a9674d5d2dc266ad9493e25c38590c3fe3626" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f6/41a2aaed604fba63f07c27bb066acb3439bf67" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f6/d3070cea659cf6be52809214109234e68e1303" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f7/e400a231c7c23fd7215846f8f3109887509295" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/f9/e8010e67a049a097832d13844faecc4ccf5cb4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/fb/14267d136b07db55f762cdba6565ea66ca71a8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/fd/2079cc4dc414fb919337a33bc37c0d0f7005d4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/pack/pack-d5225fad5c56b2b413962c3a9ed7eb5c53b70c3d.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/objects/pack/pack-d5225fad5c56b2b413962c3a9ed7eb5c53b70c3d.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/packed-refs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/refs/heads/master" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.git/refs/remotes/origin/HEAD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/ManagerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/common/IStatusMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/common/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/common/utils/DigestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/common/utils/ShiroFilterUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/PermissionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dao/BaseAdminPermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dao/BaseAdminRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dao/BaseAdminUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dto/AdminRoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dto/AdminUserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dto/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dto/PageRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dto/PermissionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dto/UserSearchDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/filter/FormFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/filter/KickoutSessionFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/pojo/BaseAdminPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/pojo/BaseAdminRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/pojo/BaseAdminUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/response/PageDataResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/response/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/AdminPermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/AdminRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/AdminUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/shiro/MyRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/mapper/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BaseAdminPermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BaseAdminRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BaseAdminUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/base_admin_permission.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/base_admin_role.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/base_admin_user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/formSelects-v4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/bk.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/checkParam.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/date-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/dateUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/formSelects-v4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/head.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery/jquery.serializejson.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/permission/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/role/roleManage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/sysUser/userList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/updateUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ztree/jquery.ztree.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/treegrid/css/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/treegrid/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/treegrid/img/collapse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/treegrid/img/expand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/treegrid/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/treegrid/img/wrong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/treegrid/treeGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/permission/permissionManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/role/roleManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/userManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/haiyu/ManagerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/manager.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/ManagerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/common/IStatusMessage$SystemStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/common/IStatusMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/common/utils/DateUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/common/utils/DigestUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/common/utils/ShiroFilterUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/config/RedisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/config/ShiroConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/controller/IndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/controller/system/PermissionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/controller/system/RoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/controller/system/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/dao/BaseAdminPermissionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/dao/BaseAdminRoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/dao/BaseAdminUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/dto/AdminRoleDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/dto/AdminUserDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/dto/LoginDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/dto/PageRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/dto/PermissionDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/dto/UserSearchDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/filter/FormFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/filter/KickoutSessionFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/pojo/BaseAdminPermission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/pojo/BaseAdminRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/pojo/BaseAdminUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/response/PageDataResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/response/ResponseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/service/AdminPermissionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/service/AdminRoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/service/AdminUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/service/impl/AdminRoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/service/impl/AdminUserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/haiyu/manager/shiro/MyRealm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/config/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BaseAdminPermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BaseAdminRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BaseAdminUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sql/base_admin_permission.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sql/base_admin_role.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sql/base_admin_user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/formSelects-v4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/bk.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/checkParam.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/date-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/dateUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/formSelects-v4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/head.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery/jquery.serializejson.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/permission/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/role/roleManage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/sysUser/userList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/updateUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/ztree/jquery.ztree.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/treegrid/css/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/treegrid/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/treegrid/img/collapse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/treegrid/img/expand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/treegrid/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/treegrid/img/wrong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/treegrid/treeGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/fragments/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/fragments/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/permission/permissionManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/role/roleManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/userManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/tk/mapper/MyMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/haiyu/ManagerApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/permission/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/permission/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/role/roleManage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/role/roleManage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/sysUser/userList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/sysUser/userList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/permission/permissionManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/permission/permissionManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/role/roleManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/role/roleManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/userManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/userManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/role/roleManage.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/role/roleManage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/permission/permissionManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/permission/permissionManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/role/roleManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/role/roleManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/userManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/user/userManage.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -843,8 +52,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="1352">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/role/roleManage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/permission/permission.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/sysUser/userList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="26" selection-start-line="6" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="6" column="112" lean-forward="true" selection-start-line="6" selection-start-column="112" selection-end-line="6" selection-end-column="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-188">
+              <caret line="16" column="89" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
+              <folding>
+                <element signature="n#style#0;n#legend#0;n#fieldset#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#legend#0;n#fieldset#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -852,70 +123,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/permission/permissionManage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/role/roleManage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/content.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-188" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-677" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state relative-caret-position="93">
+              <caret line="49" column="53" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="53" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/pojo/BaseAdminUser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/head.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/AdminUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminUserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-902">
-              <caret line="142" column="41" selection-start-line="142" selection-start-column="41" selection-end-line="142" selection-end-column="41" />
+            <state relative-caret-position="241">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -923,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/PermissionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+            <state relative-caret-position="155">
+              <caret line="162" column="32" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -940,25 +167,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logout</find>
-      <find>home</find>
-      <find>PageHelper.startPage(pageNum, pageSize)</find>
-      <find>PageHelper.startPage(pageNum, pageSize)</find>
-      <find>PageHelper.startPage(pageNum, pageSize);</find>
-      <find>permissionManage</find>
-      <find>setPermission</find>
-      <find>权限菜单列表查询</find>
-      <find>resultType</find>
-      <find></find>
-      <find>setConfigurers</find>
-      <find>redisPoolFactory</find>
-      <find>redisConnectionFactory</find>
       <find>JedisConnectionConfiguration</find>
       <find>@CacheEvict(value=&quot;accountCache&quot;,key=&quot;#account.getName()&quot;)// 清空accountCache 缓存</find>
-      <find>add</find>
-      <find>get_permission_list_cache</find>
       <find>base_admin_user</find>
+      <find>avascript:;</find>
+      <find>海韵后台管理系统</find>
+      <find>userManage</find>
+      <find>fragments</find>
+      <find>上级菜单</find>
+      <find>cursor: move;</find>
+      <find>add</find>
+      <find>add()</find>
       <find>新增</find>
+      <find>height:</find>
+      <find>550px</find>
+      <find>提交</find>
+      <find>角色类型</find>
+      <find>layui-layer-content</find>
+      <find>style=&quot;padding-left: 25%;&quot;</find>
+      <find>必填项不能为空</find>
+      <find>layui-layer-title</find>
+      <find>getRoleList</find>
+      <find>507.014px;</find>
+      <find>In</find>
+      <find>其他</find>
+      <find>kickout</find>
+      <find>session.se</find>
+      <find>get_permission_list_cache</find>
+      <find>getUserPerms</find>
+      <find>loading</find>
+      <find>菜单url</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -967,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/BaseAdminPermissionMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/config/MyRedisConfig.java" />
@@ -984,10 +221,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dto/LoginDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dto/AdminUserDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dto/AdminRoleDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/permission/permissionManage.html" />
+        <option value="$PROJECT_DIR$/manager.iml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/PermissionController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/role/roleManage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/permission/permissionManage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user/userManage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/haiyu/manager/dao/BaseAdminRoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/BaseAdminRoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/head.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/sysUser/userList.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/role/roleManage.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/permission/permission.js" />
       </list>
     </option>
   </component>
@@ -1058,7 +308,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-layui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manager" type="b2602c69:ProjectViewProjectNode" />
@@ -1095,7 +355,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manager" type="b2602c69:ProjectViewProjectNode" />
@@ -1139,14 +399,6 @@
               <item name="springboot-layui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-layui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1183,6 +435,26 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="permission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-layui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="role" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-layui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="sysUser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manager" type="b2602c69:ProjectViewProjectNode" />
@@ -1221,52 +493,68 @@
             </path>
             <path>
               <item name="manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-layui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper-base:1.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper-base:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="mapper-base-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper-base:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="mapper-base-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper-base:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="mapper-base-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper-base:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="mapper-base-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper-base:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="mapper-base-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="insert" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="subject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1286,6 +574,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\test\springboot-layui" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1321,12 +614,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564556207485</updated>
-      <workItem from="1564556210353" duration="15097000" />
+      <workItem from="1564556210353" duration="25088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15097000" />
+    <option name="totallyTimeSpent" value="25088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1338,10 +631,10 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32874355" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32874355" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32874355" />
@@ -1349,12 +642,12 @@
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32874355" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32874355" />
+      <window_info anchor="bottom" id="Find" order="9" visible="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Run" order="10" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Debug" order="14" weight="0.39931154" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.2788296" />
       <window_info anchor="right" id="Maven" weight="0.32954547" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -1380,18 +673,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/PermissionController.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.java</url>
-          <line>101</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.java</url>
           <line>51</line>
           <properties />
@@ -1401,186 +682,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/base_admin_permission.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/base_admin_role.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/base_admin_user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="19" column="31" lean-forward="true" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/common/IStatusMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/common/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="132" column="43" lean-forward="true" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/dao/BaseAdminRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/dao/BaseAdminUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mapper/MyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/pojo/BaseAdminRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
-          <folding>
-            <element signature="e#1374#1380#0" expanded="true" />
-            <element signature="e#1380#1386#0" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/filter/FormFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/permission/permission.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1075">
-          <caret line="80" column="39" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <folding>
-            <element signature="e#0#4151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BaseAdminPermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/stereotype/Repository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/cache/annotation/CacheConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/dao/BaseAdminPermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/cache/annotation/Cacheable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/config/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1611,16 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/response/PageDataResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1692,52 +783,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="73" column="48" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/AdminPermissionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/pojo/BaseAdminPermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/base/insert/InsertMapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/PermissionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/pojo/BaseAdminUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1765,27 +814,271 @@
         <state relative-caret-position="-677" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/permission/permissionManage.html">
+    <entry file="file://$PROJECT_DIR$/manager.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="150">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="1705" selection-start-line="1" selection-start-column="1705" selection-end-line="1" selection-end-column="1705" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/layui.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="4" column="3214" selection-start-line="4" selection-start-column="3214" selection-end-line="4" selection-end-column="3214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2053">
+          <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.1/shiro-core-1.3.1.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/pojo/BaseAdminUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/AdminPermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/pojo/BaseAdminPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/role/roleManage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="15">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/userManage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="80" column="94" selection-start-line="80" selection-start-column="94" selection-end-line="80" selection-end-column="94" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/response/PageDataResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/dao/BaseAdminPermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BaseAdminPermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="48" column="78" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="167" column="37" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/dao/BaseAdminRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BaseAdminRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Boolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/common/utils/ShiroFilterUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/filter/KickoutSessionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/service/impl/AdminPermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/controller/system/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="162" column="32" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        <state relative-caret-position="113">
+          <caret line="6" column="112" lean-forward="true" selection-start-line="6" selection-start-column="112" selection-end-line="6" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="17792" column="17" selection-start-line="17792" selection-start-column="17" selection-end-line="17792" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/head.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/sysUser/userList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="26" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/role/roleManage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="16" column="89" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#legend#0;n#fieldset#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#legend#0;n#fieldset#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/permission/permissionManage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="49" column="53" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/permission/permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
         </state>
       </provider>
     </entry>

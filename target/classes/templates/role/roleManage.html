@@ -24,24 +24,24 @@
     </div>
 
     <!--添加或编辑-->
-    <div id="setRole" class="layer_self_wrap" style="width:500px;display:none;">
+    <div id="setRole" class="layer_self_wrap" style="width:550px;display:none;">
         <form id="roleForm" class="layui-form layui-form-pane" method="post" action="" style="margin-top: 20px;">
             <input id="pageNum" type="hidden" name="pageNum"/>
             <input id="id" type="hidden" name="id"/>
 
-            <div class="layui-form-item">
+            <div class="layui-form-item" style="padding-left: 24%;">
                 <label class="layui-form-label">角色名称</label>
                 <div class="layui-input-inline">
                     <input id="roleName" name="roleName" lay-verify="required" autocomplete="off" class="layui-input" type="text"/>
                 </div>
             </div>
-            <div class="layui-form-item">
+            <div class="layui-form-item" style="padding-left: 24%;">
                 <label class="layui-form-label">角色描述</label>
                 <div class="layui-input-inline">
                     <input id="roleDesc" name="roleDesc" lay-verify="required" autocomplete="off" class="layui-input" type="text"/>
                 </div>
             </div>
-            <div class="layui-form-item">
+            <div class="layui-form-item" style="padding-left: 24%;">
                 <label class="layui-form-label">权限</label>
                 <div class="layui-input-inline">
                     <select name="permissions"  xm-select="permissions">
@@ -53,8 +53,8 @@
                     </select>
                 </div>
             </div>
-            <div class="layui-form-item">
-                <div class="layui-input-block" style="margin-left: 10px;">
+            <div class="layui-form-item" style="padding-left: 40%;">
+                <div class="layui-input-block" style="margin-left: 0px;">
                     <button class="layui-btn"  lay-submit="" lay-filter="roleSubmit">提交</button>
                     <button type="reset" class="layui-btn layui-btn-primary">重置</button>
                 </div>

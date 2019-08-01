@@ -4,6 +4,8 @@
 var pageCurr;
 var form;
 $(function() {
+    $('.loading').animate({'width':'50%'},50); //第四个进度节点
+
     layui.use('table', function(){
         var table = layui.table;
         form = layui.form;
@@ -236,3 +238,8 @@ function cleanUser(){
     $("#password").val("");
     $('#roleId').html("");
 }
+
+$(document).ready(function(){
+    $('.loading').animate({'width':'100%'},50); //第四个进度节点
+    $('.loading').fadeOut();
+});

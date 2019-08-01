@@ -6,6 +6,7 @@ var pageCurr;
 var form;
 
 $(function() {
+    $('.loading').animate({'width':'50%'},50); //第四个进度节点
 
     layui.use('table', function(){
         var table = layui.table;
@@ -148,6 +149,7 @@ function edit(data,title){
         fixed:false,
         resize :false,
         shadeClose: true,
+        // area: ['550px','550px'],
         area: ['550px','550px'],
         content:$('#setRole'),
         end:function(){
@@ -216,3 +218,7 @@ function cleanRole() {
     $("#permissions").val("");
 }
 
+$(document).ready(function(){
+    $('.loading').animate({'width':'100%'},50); //第四个进度节点
+    $('.loading').fadeOut();
+});

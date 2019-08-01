@@ -20,11 +20,11 @@
     </div>
 
     <!--添加或编辑-->
-    <div id="setPermission" class="layer_self_wrap" style="width:500px;display:none;">
+    <div id="setPermission" class="layer_self_wrap" style="width:550px;display:none;">
         <form id="permissionForm" class="layui-form layui-form-pane" method="post" action="" style="margin-top: 20px;">
             <input id="pageNum" type="hidden" name="pageNum"/>
             <input id="id" type="hidden" name="id"/>
-            <div class="layui-form-item">
+            <div class="layui-form-item" style="padding-left: 25%;">
                 <label class="layui-form-label">上级菜单</label>
                 <div class="layui-input-inline">
                     <select name="pid"  id="pid" >
@@ -34,26 +34,26 @@
                     </select>
                 </div>
             </div>
-            <div class="layui-form-item">
+            <div class="layui-form-item" style="padding-left: 25%;">
                 <label class="layui-form-label">菜单名称</label>
                 <div class="layui-input-inline">
                     <input id="name" name="name" lay-verify="required" autocomplete="off" class="layui-input" type="text"/>
                 </div>
             </div>
-            <div class="layui-form-item">
+            <div class="layui-form-item" style="padding-left: 25%;">
                 <label class="layui-form-label">描述</label>
                 <div class="layui-input-inline">
                     <input id="descpt" name="descpt" lay-verify="required" autocomplete="off" class="layui-input" type="text"/>
                 </div>
             </div>
-            <div class="layui-form-item">
+            <div class="layui-form-item" style="padding-left: 25%;">
                 <label class="layui-form-label">菜单url</label>
                 <div class="layui-input-inline">
                     <input id="url" name="url" autocomplete="off" class="layui-input" type="text"/>
                 </div>
             </div>
             <div class="layui-form-item">
-                <div class="layui-input-block" style="margin-left: 10px;">
+                <div class="layui-input-block" style="margin-left: 40%;">
                     <button class="layui-btn"  lay-submit="" lay-filter="permissionSubmit">提交</button>
                     <button type="reset" class="layui-btn layui-btn-primary">重置</button>
                 </div>

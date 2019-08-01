@@ -48,10 +48,9 @@ public class RoleController {
      * @auther: youqing
      * @date: 2018/11/21 14:29
      */
-    @RequestMapping(value = "/getRoleList", method = RequestMethod.GET)
+    @GetMapping(value = "/getRoleList")
     @ResponseBody
-    public PageDataResult getRoleList(@RequestParam("pageNum") Integer pageNum,
-                                      @RequestParam("pageSize") Integer pageSize) {
+    public PageDataResult getRoleList(@RequestParam("pageNum") Integer pageNum, @RequestParam("pageSize") Integer pageSize) {
         logger.info("获取角色列表");
         PageDataResult pdr = new PageDataResult();
         try {
