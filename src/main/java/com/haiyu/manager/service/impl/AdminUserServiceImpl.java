@@ -14,6 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import java.util.HashMap;
 import java.util.List;
@@ -36,13 +37,15 @@ public class AdminUserServiceImpl implements AdminUserService{
 
     @Override
     public PageDataResult getUserList(UserSearchDTO userSearch, Integer pageNum, Integer pageSize) {
+        Integer total = baseAdminUserMapper.getUserListCount(userSearch.getSysUserName(),userSearch.getUserPhone(),userSearch.getStartTime(),userSearch.getEndTime());
         PageDataResult pageDataResult = new PageDataResult();
-        List<AdminUserDTO> baseAdminUsers = baseAdminUserMapper.getUserList(userSearch);
+        List<AdminUserDTO> baseAdminUsers = baseAdminUserMapper.getUserList(userSearch.getSysUserName(),userSearch.getUserPhone(),userSearch.getStartTime(),userSearch.getEndTime(),(pageNum-1)*pageSize,pageSize);
 
         if(baseAdminUsers.size() != 0){
-            PageInfo<AdminUserDTO> pageInfo = new PageInfo<>(baseAdminUsers);
+//            PageInfo<AdminUserDTO> pageInfo = new PageInfo<>(baseAdminUsers);
             pageDataResult.setList(baseAdminUsers);
-            pageDataResult.setTotals((int) pageInfo.getTotal());
+//            pageDataResult.setTotals((int) pageInfo.getTotal());
+            pageDataResult.setTotals(total);
         }
         PageHelper.startPage(pageNum, pageSize);
         return pageDataResult;

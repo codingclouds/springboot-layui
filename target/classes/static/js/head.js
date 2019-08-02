@@ -37,7 +37,7 @@ var getMenus=function(data){
             a.append("<span class='layui-nav-more'></span>");
             var dl=$("<dl class='layui-nav-child'></dl>");
             for (var y in childArry) {
-                var dd=$("<dd><a href='"+childArry[y].url+"'>"+childArry[y].name+"</a></dd>");
+                var dd=$("<dd><a href='"+childArry[y].url+"'><span style='margin-left: 20px'>"+childArry[y].name+"</span></a></dd>");
                 //判断选中状态
                 if(pathUri.indexOf(childArry[y].url)>0){
                     li.addClass("layui-nav-itemed");

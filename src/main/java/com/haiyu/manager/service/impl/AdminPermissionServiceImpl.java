@@ -145,8 +145,10 @@ public class AdminPermissionServiceImpl implements AdminPermissionService {
     }
 
 
+    @Cacheable(value = "user_permission",key = "'user_permission'+#user.roleId")
     @Override
     public Map <String, Object> getUserPerms(BaseAdminUser user) {
+        logger.info("//////////////////////");
         Map<String, Object> data = new HashMap<>();
         Integer roleId = user.getRoleId();
 

@@ -14,6 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
@@ -104,6 +105,7 @@ public class AdminRoleServiceImpl implements AdminRoleService {
         return baseAdminRoleMapper.selectByPrimaryKey(id);
     }
 
+    @CacheEvict(value = "user_permission" ,key = "'user_permission'+#role.id" )
     @Override
     public Map<String,Object> updateRole(BaseAdminRole role) {
         Map<String,Object> data = new HashMap();

@@ -230,7 +230,8 @@ function load(obj){
     tableIns.reload({
         where: obj.field
         , page: {
-            curr: pageCurr //从当前页码开始
+            // curr: pageCurr //从当前页码开始
+            curr: 1 //从第一页码开始
         }
     });
 }

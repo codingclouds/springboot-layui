@@ -69,6 +69,26 @@
     and user_status = 1
   </select>
 
+  <select id="getUserListCount" resultType="Integer">
+    SELECT COUNT(1)
+    FROM base_admin_user as u
+
+    <where>
+      <if test="sysUserName != null and sysUserName != '' ">
+        and sys_user_name LIKE '%' #{sysUserName} '%'
+      </if>
+      <if test="userPhone != null and userPhone != '' ">
+        and user_phone  LIKE '%' #{userPhone} '%'
+      </if>
+      <if test="startTime != null and startTime != '' ">
+        and reg_time &gt;  #{startTime}
+      </if>
+      <if test="endTime != null and endTime != '' ">
+        and reg_time &lt;  #{endTime}
+      </if>
+    </where>
+  </select>
+
   <select id="getUserList" resultType="com.haiyu.manager.dto.AdminUserDTO">
     SELECT id, sys_user_name AS sysUserName ,role_id AS roleId,
     (SELECT role_name FROM base_admin_role as r WHERE r.id = u.role_id) as roleName,
@@ -88,6 +108,7 @@
         and reg_time &lt;  #{endTime}
       </if>
     </where>
+     LIMIT #{offset},#{pageSize}
   </select>
 
 </mapper>

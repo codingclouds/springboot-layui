@@ -15,10 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -161,12 +158,10 @@ public class UserController {
      * @auther: youqing
      * @date: 2018/11/21 11:10
      */
-    @RequestMapping(value = "/getUserList", method = RequestMethod.POST)
+    @PostMapping(value = "/getUserList")
     @ResponseBody
-    public PageDataResult getUserList(@RequestParam("pageNum") Integer pageNum,
-                                      @RequestParam("pageSize") Integer pageSize,/*@Valid PageRequest page,*/ UserSearchDTO userSearch) {
-        /*logger.info("分页查询用户列表！搜索条件：userSearch：" + userSearch + ",pageNum:" + page.getPageNum()
-                + ",每页记录数量pageSize:" + page.getPageSize());*/
+    public PageDataResult getUserList(@RequestParam("pageNum") Integer pageNum,@RequestParam("pageSize") Integer pageSize,/*@Valid PageRequest page,*/ UserSearchDTO userSearch) {
+        logger.info("分页查询用户列表！搜索条件：userSearch：" + userSearch + ",pageNum:" + pageNum + ",每页记录数量pageSize:" + pageSize);
         PageDataResult pdr = new PageDataResult();
         try {
             if(null == pageNum) {

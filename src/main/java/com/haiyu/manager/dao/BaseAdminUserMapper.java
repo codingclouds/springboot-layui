@@ -13,7 +13,11 @@ import java.util.List;
 @Repository
 public interface BaseAdminUserMapper extends MyMapper<BaseAdminUser> {
 
-    List<AdminUserDTO> getUserList(UserSearchDTO userSearchDTO);
+//    Integer getUserListCount(UserSearchDTO userSearchDTO);
+    Integer getUserListCount(String sysUserName,String userPhone,String startTime,String endTime);
+
+//    List<AdminUserDTO> getUserList(UserSearchDTO userSearchDTO);
+    List<AdminUserDTO> getUserList(String sysUserName,String userPhone,String startTime,String endTime,Integer offset,Integer pageSize);
 
     BaseAdminUser getUserByUserName(@Param("sysUserName")String sysUserName,@Param("id") Integer id);
 
