@@ -43,9 +43,7 @@ public class LogAspect {
     @Around("@annotation(log)")
     public Object doInvoke(ProceedingJoinPoint pjp,Log log) {
         long start = System.currentTimeMillis();
-
         Object result = null;
-
         try {
             result = pjp.proceed();
         } catch (Throwable throwable) {
@@ -94,7 +92,7 @@ public class LogAspect {
                 if (log == null) {
                     log = getAnnotationLog(joinPoint);
                 }
-                
+
                 //获得类名
                 String className = joinPoint.getTarget().getClass().getName();
                 //获得方法名
