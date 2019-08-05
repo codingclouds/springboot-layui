@@ -1,7 +1,10 @@
 package com.haiyu.manager.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
+import com.haiyu.manager.annotation.Log;
+import com.haiyu.manager.common.enums.BusiTypeEnum;
+import com.haiyu.manager.common.staticparm.BusiType;
+import com.haiyu.manager.common.staticparm.OperType;
 import com.haiyu.manager.common.utils.DateUtils;
 import com.haiyu.manager.dao.BaseAdminPermissionMapper;
 import com.haiyu.manager.dao.BaseAdminRoleMapper;
@@ -16,7 +19,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
@@ -145,10 +147,10 @@ public class AdminPermissionServiceImpl implements AdminPermissionService {
     }
 
 
-    @Cacheable(value = "user_permission",key = "'user_permission'+#user.roleId")
+    @Log(busi = BusiType.PREMISSION,operType = OperType.QUERY)
+    @Cacheable(/*value = "user_permission",*/key = "'user_permission'+#user.roleId")
     @Override
     public Map <String, Object> getUserPerms(BaseAdminUser user) {
-        logger.info("//////////////////////");
         Map<String, Object> data = new HashMap<>();
         Integer roleId = user.getRoleId();
 
