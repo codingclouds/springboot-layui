@@ -1,6 +1,9 @@
 package com.haiyu.manager.controller.system;
 
 
+import com.haiyu.manager.annotation.Log;
+import com.haiyu.manager.common.staticparm.BusiType;
+import com.haiyu.manager.common.staticparm.OperType;
 import com.haiyu.manager.dto.PermissionDTO;
 import com.haiyu.manager.pojo.BaseAdminPermission;
 import com.haiyu.manager.pojo.BaseAdminUser;
@@ -156,6 +159,7 @@ public class PermissionController {
      * @auther: youqing
      * @date: 2018/12/4 9:48
      */
+    @Log(busi = BusiType.PREMISSION,operType = OperType.QUERY)
     @GetMapping("getUserPerms")
     @ResponseBody
     public Map<String, Object> getUserPerms(){

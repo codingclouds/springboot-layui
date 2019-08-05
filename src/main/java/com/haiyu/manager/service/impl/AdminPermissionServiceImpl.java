@@ -147,10 +147,10 @@ public class AdminPermissionServiceImpl implements AdminPermissionService {
     }
 
 
-    @Log(busi = BusiType.PREMISSION,operType = OperType.QUERY)
-    @Cacheable(/*value = "user_permission",*/key = "'user_permission'+#user.roleId")
+    @Cacheable(value = "user_permission",key = "'user_permission'+#user.roleId")
     @Override
     public Map <String, Object> getUserPerms(BaseAdminUser user) {
+        logger.info("//////////////////////");
         Map<String, Object> data = new HashMap<>();
         Integer roleId = user.getRoleId();
 

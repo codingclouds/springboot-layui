@@ -26,14 +26,14 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
                 return true;
             else{
                 //在这里实现权限验证逻辑
-                if(false)//如果验证成功返回true（这里直接写false来模拟验证失败的处理）
+//                if(false)//如果验证成功返回true（这里直接写false来模拟验证失败的处理）
                     return true;
-                else//如果验证失败
-                {
-                    //返回到登录界面
-                    response.sendRedirect("account/login");
-                    return false;
-                }
+//                else//如果验证失败
+//                {
+//                    //返回到登录界面
+//                    response.sendRedirect("login");
+//                    return false;
+//                }
             }
         }
         else

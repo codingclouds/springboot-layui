@@ -3,13 +3,15 @@ package com.haiyu.manager.aspect;
 
 import com.haiyu.manager.annotation.Log;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.AfterThrowing;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.Signature;
+import org.aspectj.lang.annotation.*;
+import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
+
+import java.lang.reflect.Method;
 
 /**
  * @ Author     : wzt.
@@ -38,14 +40,34 @@ public class LogAspect {
 //    @Before(value = "logPointCut()")
 //    public void doBefore(){
 //    }
+    @Around("@annotation(log)")
+    public Object doInvoke(ProceedingJoinPoint pjp,Log log) {
+        long start = System.currentTimeMillis();
+
+        Object result = null;
+
+        try {
+            result = pjp.proceed();
+        } catch (Throwable throwable) {
+            throwable.printStackTrace();
+            logger.error(throwable.getMessage(), throwable);
+            throw new RuntimeException(throwable);
+        } finally {
+            long end = System.currentTimeMillis();
+            long elapsedTime = end - start;
+            logger.info("时差为：{}",elapsedTime);
+//            printLog(pjp, result, elapsedTime);
+        }
+        return result;
+    }
 
     /**
      * 前置通知，拦截操作，方法返回后执行
      * @param joinPoint
      */
-    @AfterReturning(pointcut = "logPointCut()")
-    public void doAfterReturn(JoinPoint joinPoint) {
-        handleLog(joinPoint, null);
+    @AfterReturning("@annotation(log)")
+    public void doAfterReturn(JoinPoint joinPoint,Log log) {
+        handleLog(joinPoint, log);
     }
 
     /**
@@ -53,29 +75,26 @@ public class LogAspect {
      * @param joinPoint
      * @param e
      */
-    @AfterThrowing(value = "logPointCut()",throwing = "e")
-    public void doExpection(JoinPoint joinPoint,Exception e){
-        handleLog(joinPoint,e);
-    }
+//    @AfterThrowing("@annotation(log)")
+//    public void doExpection(JoinPoint joinPoint,Log log){
+//        handleLog(joinPoint,log);
+//    }
 
     /**
      * 日志处理
      * @param joinPoint
-     * @param e
+     * @param
      */
-    private void handleLog(JoinPoint joinPoint, Exception e) {
+    private void handleLog(JoinPoint joinPoint, Log log) {
         try {
-            if(e != null){
-                logger.error("***************拦截异常***************");
-                logger.error("拦截出现异常{}"+e.toString());
 
-            }else {
                 // 获得注解
-                //Log controllerLog = getAnnotationLog(joinPoint);
-                Log log = null;
+//                Log log = getAnnotationLog(joinPoint);
+//                Log log = null;
                 if (log == null) {
-                    return;
+                    log = getAnnotationLog(joinPoint);
                 }
+                
                 //获得类名
                 String className = joinPoint.getTarget().getClass().getName();
                 //获得方法名
@@ -96,7 +115,6 @@ public class LogAspect {
                 logger.info(">>>>>>>>>>>>>是否跳过验证权限：{}", validate);
                 logger.info(">>>>>>>>>>>>>类名：{}", className);
                 logger.info(">>>>>>>>>>>>>方法名：{}", methodName);
-            }
 
         } catch (Exception exp) {
             // 记录本地异常日志
@@ -106,18 +124,18 @@ public class LogAspect {
         }
     }
 
-//        /**
-//         * 是否存在注解，如果存在就获取
-//         */
-//        private static Log getAnnotationLog(JoinPoint joinPoint) throws Exception {
-//            Signature signature = joinPoint.getSignature();
-//            MethodSignature methodSignature = (MethodSignature) signature;
-//            Method method = methodSignature.getMethod();
-//            if (method != null) {
-//                return method.getAnnotation(Log.class);
-//            }
-//            return null;
-//        }
+        /**
+         * 是否存在注解，如果存在就获取
+         */
+        private static Log getAnnotationLog(JoinPoint joinPoint) throws Exception {
+            Signature signature = joinPoint.getSignature();
+            MethodSignature methodSignature = (MethodSignature) signature;
+            Method method = methodSignature.getMethod();
+            if (method != null) {
+                return method.getAnnotation(Log.class);
+            }
+            return null;
+        }
 
 
 }
