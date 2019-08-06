@@ -8,12 +8,12 @@ package com.haiyu.manager.common.staticparm;
  * @ Version    : 1.0$
  */
 public class BusiType {
-    /** 管理员*/
-    public static final String ADMIN = "admin";
+    /** 账号管理*/
+    public static final String ADMIN_MANAGE = "admin_manage";
     /** 角色模块*/
-    public static final String ROLE = "role";
+    public static final String ROLE_MANAGE = "role_manage";
     /** 新闻模块*/
-    public static final String NEWS = "news";
+    public static final String NEWS_MANAGE = "news_manage";
     /** 权限模块*/
-    public static final String PREMISSION = "premission";
+    public static final String PREMISSION_MANAGE = "premission_manage";
 }

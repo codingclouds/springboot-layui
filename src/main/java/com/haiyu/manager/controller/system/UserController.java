@@ -1,5 +1,8 @@
 package com.haiyu.manager.controller.system;
 
+import com.haiyu.manager.annotation.Log;
+import com.haiyu.manager.common.staticparm.BusiType;
+import com.haiyu.manager.common.staticparm.OperType;
 import com.haiyu.manager.dto.LoginDTO;
 import com.haiyu.manager.dto.UserSearchDTO;
 import com.haiyu.manager.pojo.BaseAdminUser;
@@ -158,6 +161,7 @@ public class UserController {
      * @auther: youqing
      * @date: 2018/11/21 11:10
      */
+    @Log(busi = BusiType.ADMIN_MANAGE,operType = OperType.QUERY)
     @PostMapping(value = "/getUserList")
     @ResponseBody
     public PageDataResult getUserList(@RequestParam("pageNum") Integer pageNum,@RequestParam("pageSize") Integer pageSize,/*@Valid PageRequest page,*/ UserSearchDTO userSearch) {

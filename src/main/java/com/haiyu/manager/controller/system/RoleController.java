@@ -53,7 +53,7 @@ public class RoleController {
      * @auther: youqing
      * @date: 2018/11/21 14:29
      */
-    @Log(busi = BusiType.ROLE,operType = OperType.QUERY)
+    @Log(busi = BusiType.ROLE_MANAGE,operType = OperType.QUERY)
     @GetMapping(value = "/getRoleList")
     @ResponseBody
     public PageDataResult getRoleList(@RequestParam("pageNum") Integer pageNum, @RequestParam("pageSize") Integer pageSize) {

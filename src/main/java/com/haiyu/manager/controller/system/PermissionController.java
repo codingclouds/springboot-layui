@@ -61,10 +61,10 @@ public class PermissionController {
      * @auther: youqing
      * @date: 2018/11/30 10:30
      */
+    @Log(busi = BusiType.PREMISSION_MANAGE,operType = OperType.QUERY)
     @PostMapping("permissionList")
     @ResponseBody
-    public PageDataResult permissionList(@RequestParam("pageNum") Integer pageNum,
-                                            @RequestParam("pageSize") Integer pageSize){
+    public PageDataResult permissionList(@RequestParam("pageNum") Integer pageNum, @RequestParam("pageSize") Integer pageSize){
         logger.info("获取权限菜单列表");
         PageDataResult pdr = new PageDataResult();
         try {
