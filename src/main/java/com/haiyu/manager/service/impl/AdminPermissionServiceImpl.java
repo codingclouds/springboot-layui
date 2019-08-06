@@ -34,7 +34,7 @@ import java.util.Map;
  * @version: 1.0
  * @date: 2018/11/30 9:44
  */
-@CacheConfig(cacheNames = "permission")
+@CacheConfig(cacheNames = "user_permission")
 @Service
 public class AdminPermissionServiceImpl implements AdminPermissionService {
 
@@ -147,7 +147,7 @@ public class AdminPermissionServiceImpl implements AdminPermissionService {
     }
 
 
-    @Cacheable(value = "user_permission",key = "'user_permission'+#user.roleId")
+    @Cacheable(key = "'user_permission'+#user.roleId")
     @Override
     public Map <String, Object> getUserPerms(BaseAdminUser user) {
         Map<String, Object> data = new HashMap<>();
