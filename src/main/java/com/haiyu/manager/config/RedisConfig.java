@@ -17,6 +17,18 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 @EnableCaching
 public class RedisConfig extends CachingConfigurerSupport {
 
+    /**
+     * @Autowired
+     * private RedisTemplate redisTemplate
+     * 
+     * opsForValue： 对应 String（字符串）
+     * opsForZSet： 对应 ZSet（有序集合）
+     * opsForHash： 对应 Hash（哈希）
+     * opsForList： 对应 List（列表）
+     * opsForSet： 对应 Set（集合）
+     * @param connectionFactory
+     * @return
+     */
     @Bean
     public RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory connectionFactory) {
         RedisTemplate<Object, Object> template = new RedisTemplate<>();
@@ -33,6 +45,8 @@ public class RedisConfig extends CachingConfigurerSupport {
         template.setValueSerializer(serializer);
         //使用StringRedisSerializer来序列化和反序列化redis的key值
         template.setKeySerializer(new StringRedisSerializer());
+        template.setHashKeySerializer(new StringRedisSerializer());
+        template.setHashValueSerializer(serializer);
         template.afterPropertiesSet();
         return template;
     }
