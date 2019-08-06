@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 /**
  * @ Author     : wzt.
  * @ Date       : Created in 12:41 2019/8/5
- * @ Description: 指定拦截器
+ * @ Description: 拦截器配置类：指定拦截器
  * @ Modified By:
  * @ Version    : 1.0$
  */
