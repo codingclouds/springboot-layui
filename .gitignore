@@ -33,3 +33,6 @@ build/
 
 ### VS Code ###
 .vscode/
+target/classes/META-INF/manager.kotlin_module
+target/classes/application.yml
+target/classes/application.yml

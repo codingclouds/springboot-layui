@@ -1,5 +1,9 @@
 package com.haiyu.manager.controller.system;
 
+import com.haiyu.manager.annotation.Log;
+import com.haiyu.manager.common.staticparm.BusiType;
+import com.haiyu.manager.common.staticparm.OperType;
+import com.haiyu.manager.common.utils.ThreadPoolUtils;
 import com.haiyu.manager.pojo.BaseAdminRole;
 import com.haiyu.manager.response.PageDataResult;
 import com.haiyu.manager.service.AdminRoleService;
@@ -49,6 +53,7 @@ public class RoleController {
      * @auther: youqing
      * @date: 2018/11/21 14:29
      */
+    @Log(busi = BusiType.ROLE,operType = OperType.QUERY)
     @GetMapping(value = "/getRoleList")
     @ResponseBody
     public PageDataResult getRoleList(@RequestParam("pageNum") Integer pageNum, @RequestParam("pageSize") Integer pageSize) {

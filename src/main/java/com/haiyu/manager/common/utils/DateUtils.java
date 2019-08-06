@@ -16,6 +16,17 @@ import java.util.Date;
 public class DateUtils {
 
     /**
+     * 自定义获取系统当前时间
+     * @param pattern
+     * @return
+     */
+    public static String getCurrentDate(String pattern){
+        SimpleDateFormat df = new SimpleDateFormat(pattern);
+        String date = df.format(System.currentTimeMillis());
+        return date;
+    }
+
+    /**
      *
      * 功能描述:
      *

@@ -1,7 +1,6 @@
 server:
   port: 8102
 
-
 spring:
   application:
       name: haiyu
@@ -38,4 +37,9 @@ mybatis:
 
 #设置静态资源路径，多个以逗号分隔
 spring.resources.static-locations: classpath:static/,file:static/
+
+# 打印sql
+logging:
+  level:
+    com.haiyu.manager.dao: DEBUG
 
