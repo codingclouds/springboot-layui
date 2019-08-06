@@ -16,11 +16,11 @@ target/
 ### IntelliJ IDEA ###
 .idea
 .idea/*
-.idea\*
 *.iws
 *.iml
 *.ipr
 .idea/workspace.xml
+workspace.xml
 target/*
 target
 
