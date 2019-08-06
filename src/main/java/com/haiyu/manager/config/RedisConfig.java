@@ -13,6 +13,13 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
+/**
+ * @Title: RedisConfig
+ * @Description: redis配置
+ * @author: wzt
+ * @version: 1.0
+ * @date: 2019/8/6 15:58
+ */
 @Configuration
 @EnableCaching
 public class RedisConfig extends CachingConfigurerSupport {
