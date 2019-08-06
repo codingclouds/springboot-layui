@@ -10,3 +10,12 @@ JQuery  3.3.1
 
 ## 渲染模板
 Thymeleaf
+
+###github Ignore忽略失效解决方法
+git rm -r --cached .
+
+注意有个点. 
+
+git add .
+
+git commit -m 'update .gitignore'
