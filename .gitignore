@@ -15,12 +15,12 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
-.idea/
+.idea/*
 *.iws
 *.iml
 *.ipr
 workspace.xml
-target/
+target/*
 target
 
 ### NetBeans ###
