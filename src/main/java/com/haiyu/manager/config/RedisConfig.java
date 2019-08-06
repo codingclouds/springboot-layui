@@ -20,7 +20,7 @@ public class RedisConfig extends CachingConfigurerSupport {
     /**
      * @Autowired
      * private RedisTemplate redisTemplate
-     * 
+     *
      * opsForValue： 对应 String（字符串）
      * opsForZSet： 对应 ZSet（有序集合）
      * opsForHash： 对应 Hash（哈希）

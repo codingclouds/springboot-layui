@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c8cc1eb-920c-4ecf-bf29-b8686838fd70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haiyu/manager/config/RedisConfig.java" afterDir="false" />
-    </list>
+    <list default="true" id="3c8cc1eb-920c-4ecf-bf29-b8686838fd70" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="target/" />
@@ -66,7 +63,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/config/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
+            <state relative-caret-position="87">
               <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
@@ -170,7 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setRole</find>
       <find>//////////////////////</find>
       <find>layui-nav-item</find>
       <find>角色列表查询=pdr</find>
@@ -200,6 +196,7 @@
       <find>maven-surefire-plugin</find>
       <find>EnableAsync</find>
       <find>Autowire</find>
+      <find>commons-pool2</find>
     </findStrings>
     <replaceStrings>
       <replace>2019/8/5</replace>
@@ -444,7 +441,7 @@
       <updated>1564556207485</updated>
       <workItem from="1564556210353" duration="74195000" />
       <workItem from="1564992051332" duration="2509000" />
-      <workItem from="1564995844638" duration="21283000" />
+      <workItem from="1564995844638" duration="21795000" />
     </task>
     <servers />
   </component>
@@ -457,7 +454,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97987000" />
+    <option name="totallyTimeSpent" value="98499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -983,7 +980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/haiyu/manager/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
+        <state relative-caret-position="87">
           <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
