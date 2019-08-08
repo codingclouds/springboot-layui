@@ -16,6 +16,8 @@
     <result column="start_time" jdbcType="VARCHAR" property="startTime" />
     <result column="end_time" jdbcType="VARCHAR" property="endTime" />
     <result column="status_cd" jdbcType="INTEGER" property="statusCd" />
+    <result column="req_data" jdbcType="VARCHAR" property="reqData" />
+    <result column="resp_data" jdbcType="VARCHAR" property="respData" />
   </resultMap>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     <!--
@@ -36,11 +38,11 @@
     insert into log ( user_name, role_name,
     ip, busi, oper_type,
     method, start_time, end_time,
-    status_cd)
+    status_cd,req_data,resp_data)
     values ( #{userName,jdbcType=VARCHAR}, #{roleName,jdbcType=VARCHAR},
     #{ip,jdbcType=VARCHAR}, #{busi,jdbcType=VARCHAR}, #{operType,jdbcType=INTEGER},
     #{method,jdbcType=VARCHAR}, #{startTime,jdbcType=VARCHAR}, #{endTime,jdbcType=VARCHAR},
-    #{statusCd,jdbcType=INTEGER})
+    #{statusCd,jdbcType=INTEGER},#{reqData,jdbcType=INTEGER},#{respData,jdbcType=INTEGER})
   </insert>
   <update id="updateByPrimaryKey" parameterType="com.haiyu.manager.pojo.LogPojo">
     <!--
@@ -57,6 +59,8 @@
     start_time = #{startTime,jdbcType=VARCHAR},
     end_time = #{endTime,jdbcType=VARCHAR},
     status_cd = #{statusCd,jdbcType=INTEGER}
+    req_data = #{reqData,jdbcType=VARCHAR}
+    resp_data = #{statusCd,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
@@ -77,5 +81,76 @@
     select id, user_name, role_name, ip, busi, oper_type, method, start_time, end_time,
     status_cd
     from log
+  </select>
+
+
+  <select id="getLogListCount" resultType="Integer">
+    SELECT COUNT(1)
+    FROM log as l
+
+    <where>
+        status_cd = 1
+      <!-- 操作类型 -->
+      <if test="operType != null and operType != ''">
+        and oper_type = #{operType}
+      </if>
+      <!-- 用户名 -->
+      <if test="userName != null and userName != '' ">
+        and userName LIKE '%' #{userName} '%'
+      </if>
+      <!-- 业务类型 -->
+      <if test="busi != null and busi != '' ">
+        and busi  LIKE '%' #{busi} '%'
+      </if>
+      <!-- 请求时间 -->
+      <if test="startTime != null and startTime != '' ">
+        and end_time &gt;  #{startTime}
+      </if>
+      <!-- 返回时间 -->
+      <if test="endTime != null and endTime != '' ">
+        and end_time &lt;  #{endTime}
+      </if>
+    </where>
+  </select>
+
+  <select id="getLogList" resultType="com.haiyu.manager.dto.LogDTO">
+    SELECT
+        user_name AS userName,
+        role_name AS roleName,
+        ip AS ip,
+        busi AS busi,
+        oper_type AS operType,
+        method AS method,
+        start_time AS startTime,
+        end_time AS endTime,
+        req_data AS reqData,
+        resp_data AS respData
+    FROM log as l
+
+    <where>
+      status_cd = 1
+      <!-- 操作类型 -->
+      <if test="operType != null and operType != ''">
+        and oper_type = #{operType}
+      </if>
+      <!-- 用户名 -->
+      <if test="userName != null and userName != '' ">
+        and userName LIKE '%' #{userName} '%'
+      </if>
+      <!-- 业务类型 -->
+      <if test="busi != null and busi != '' ">
+        and busi  LIKE '%' #{busi} '%'
+      </if>
+      <!-- 请求时间 -->
+      <if test="startTime != null and startTime != '' ">
+        and end_time &gt;  #{startTime}
+      </if>
+      <!-- 返回时间 -->
+      <if test="endTime != null and endTime != '' ">
+        and end_time &lt;  #{endTime}
+      </if>
+      ORDER BY start_time desc
+
+    </where>
   </select>
 </mapper>

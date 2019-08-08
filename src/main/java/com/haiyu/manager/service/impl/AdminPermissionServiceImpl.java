@@ -99,9 +99,9 @@ public class AdminPermissionServiceImpl implements AdminPermissionService {
 //    @Cacheable(value = "get_permission_list_cache",key = "'permission_list_'+#pageNum+'_'+#pageSize")
     @Override
     public PageDataResult getPermissionList(Integer pageNum, Integer pageSize) {
-        logger.info("---------------------------------------");
         Integer total =permissionMapper.getPermissionCount();
         PageDataResult pageDataResult = new PageDataResult();
+        PageHelper.startPage(pageNum, pageSize);
         List<PermissionDTO> permissions = permissionMapper.getPermissionList((pageNum-1)*pageSize,pageSize);
 
         if(permissions.size() != 0){
@@ -109,7 +109,7 @@ public class AdminPermissionServiceImpl implements AdminPermissionService {
             pageDataResult.setList(permissions);
             pageDataResult.setTotals(total);
         }
-        PageHelper.startPage(pageNum, pageSize);
+
         return pageDataResult;
     }
 

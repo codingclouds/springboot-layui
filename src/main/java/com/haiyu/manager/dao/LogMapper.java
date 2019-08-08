@@ -1,5 +1,7 @@
 package com.haiyu.manager.dao;
 
+import com.haiyu.manager.dto.LogDTO;
+import com.haiyu.manager.dto.LogSearchDTO;
 import com.haiyu.manager.pojo.LogPojo;
 
 import java.util.List;
@@ -44,4 +46,11 @@ public interface LogMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(LogPojo record);
+
+
+    Integer getLogListCount(LogSearchDTO logSearchDTO);
+
+    List<LogDTO> getLogList(Integer operType, String userName,String busi, String startTime, String endTime, Integer offset, Integer pageSize);
+
+
 }

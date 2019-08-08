@@ -37,8 +37,10 @@ public class AdminUserServiceImpl implements AdminUserService{
 
     @Override
     public PageDataResult getUserList(UserSearchDTO userSearch, Integer pageNum, Integer pageSize) {
-        Integer total = baseAdminUserMapper.getUserListCount(userSearch.getSysUserName(),userSearch.getUserPhone(),userSearch.getStartTime(),userSearch.getEndTime());
         PageDataResult pageDataResult = new PageDataResult();
+        Integer total = baseAdminUserMapper.getUserListCount(userSearch.getSysUserName(),userSearch.getUserPhone(),userSearch.getStartTime(),userSearch.getEndTime());
+
+        PageHelper.startPage(pageNum, pageSize);
         List<AdminUserDTO> baseAdminUsers = baseAdminUserMapper.getUserList(userSearch.getSysUserName(),userSearch.getUserPhone(),userSearch.getStartTime(),userSearch.getEndTime(),(pageNum-1)*pageSize,pageSize);
 
         if(baseAdminUsers.size() != 0){
@@ -47,7 +49,7 @@ public class AdminUserServiceImpl implements AdminUserService{
 //            pageDataResult.setTotals((int) pageInfo.getTotal());
             pageDataResult.setTotals(total);
         }
-        PageHelper.startPage(pageNum, pageSize);
+
         return pageDataResult;
     }
 

@@ -44,6 +44,7 @@ public class AdminRoleServiceImpl implements AdminRoleService {
     @Override
     public PageDataResult getRoleList(Integer pageNum,Integer pageSize) {
         PageDataResult pageDataResult = new PageDataResult();
+
         List<BaseAdminRole> roles = baseAdminRoleMapper.getRoleList();
 
         List<AdminRoleDTO> roleList = new ArrayList <>();
@@ -73,6 +74,7 @@ public class AdminRoleServiceImpl implements AdminRoleService {
             pageDataResult.setTotals((int) pageInfo.getTotal());
         }
         PageHelper.startPage(pageNum, pageSize);
+
         return pageDataResult;
     }
 

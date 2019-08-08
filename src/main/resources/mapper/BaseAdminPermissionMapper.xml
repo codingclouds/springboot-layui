@@ -46,7 +46,7 @@
       SELECT id,name,pid,
       (SELECT name FROM base_admin_permission WHERE id = p.pid) as pname,
       descpt,url,create_time AS createTime, update_time AS updateTime,del_flag AS delFlag
-      FROM base_admin_permission as p ORDER BY pid LIMIT #{offset},#{pageSize}
+      FROM base_admin_permission as p ORDER BY pid
     </select>
 
   <select id="parentPermissionList" resultType="com.haiyu.manager.dto.PermissionDTO">

@@ -108,7 +108,7 @@
         and reg_time &lt;  #{endTime}
       </if>
     </where>
-     LIMIT #{offset},#{pageSize}
+
   </select>
 
 </mapper>

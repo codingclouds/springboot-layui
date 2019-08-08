@@ -1,6 +1,7 @@
 package com.haiyu.manager.aspect;
 
 
+import com.google.gson.Gson;
 import com.haiyu.manager.annotation.Log;
 import com.haiyu.manager.common.utils.DateUtils;
 import com.haiyu.manager.common.utils.ThreadPoolUtils;
@@ -13,6 +14,7 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.json.GsonJsonParser;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
@@ -53,6 +55,7 @@ public class LogAspect {
         String startTime = DateUtils.getCurrentDate("yyyy-MM-dd HH:mm:ss:SSS");
         Object result = null;
         LogPojo logPojo = new LogPojo();
+        Gson gson = new Gson();
         try {
             if (log == null) {
                 log = getAnnotationLog1(pjp);
@@ -65,11 +68,12 @@ public class LogAspect {
             logPojo.setUserName("admin");
             logPojo.setStartTime(startTime);
             logPojo.setStatusCd(1);
+            logPojo.setReqData(gson.toJson(pjp.getArgs()));
             //执行请求的方法
             result = pjp.proceed();
 
+            logPojo.setRespData(gson.toJson(result));
             logPojo.setEndTime(DateUtils.getCurrentDate("yyyy-MM-dd HH:mm:ss:SSS"));
-//            threadPoolUtils.addLog(logPojo,result);
             threadPoolUtils.addLog(logPojo);
         } catch (Throwable throwable) {
             throwable.printStackTrace();
