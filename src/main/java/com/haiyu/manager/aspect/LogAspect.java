@@ -5,7 +5,9 @@ import com.google.gson.Gson;
 import com.haiyu.manager.annotation.Log;
 import com.haiyu.manager.common.utils.DateUtils;
 import com.haiyu.manager.common.utils.ThreadPoolUtils;
+import com.haiyu.manager.pojo.BaseAdminUser;
 import com.haiyu.manager.pojo.LogPojo;
+import org.apache.shiro.SecurityUtils;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
@@ -54,6 +56,7 @@ public class LogAspect {
     public Object doInvoke(ProceedingJoinPoint pjp,Log log) {
         String startTime = DateUtils.getCurrentDate("yyyy-MM-dd HH:mm:ss:SSS");
         Object result = null;
+        BaseAdminUser user = (BaseAdminUser) SecurityUtils.getSubject().getPrincipal();
         LogPojo logPojo = new LogPojo();
         Gson gson = new Gson();
         try {
@@ -65,7 +68,7 @@ public class LogAspect {
             logPojo.setOperType(log.operType());
             logPojo.setMethod(pjp.getSignature().getName());
             logPojo.setRoleName("admin");
-            logPojo.setUserName("admin");
+            logPojo.setUserName(user.getSysUserName());
             logPojo.setStartTime(startTime);
             logPojo.setStatusCd(1);
             logPojo.setReqData(gson.toJson(pjp.getArgs()));

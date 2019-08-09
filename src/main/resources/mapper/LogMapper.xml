@@ -90,11 +90,11 @@
 
     <where>
         status_cd = 1
-      <if test="methodSearch != null and methodSearch != 0">
+      <if test="methodSearch != null and methodSearch != ''">
         and method like '%' #{methodSearch} '%'
       </if>
       <!-- 操作类型 -->
-      <if test="operTypeSearch != null and operTypeSearch != ''">
+      <if test="operTypeSearch != null and operTypeSearch != 0">
         and oper_type = #{operTypeSearch}
       </if>
       <!-- 用户名 -->

@@ -44,11 +44,9 @@ $(function() {
                 console.log(curr);
                 $("[data-field='userStatus']").children().each(function(){
                     if($(this).text()=='1'){
-                        // $(this).text("有效")
-                        $(this).html("<button type='button' class='layui-btn layui-btn-normal layui-btn-radius layui-btn-xs'>有效</button>");
+                        $(this).html("<span class='label label-success'>有效</span>");
                     }else if($(this).text()=='0'){
-                        // $(this).text("失效")
-                        $(this).html("<button type='button' class='layui-btn layui-btn-danger layui-btn-radius layui-btn-xs'>失效</button>");
+                        $(this).html("<span class='label label-danger'>失效</span>");
                     }
                 });
                 //得到数据总量
