@@ -9,6 +9,7 @@ import com.haiyu.manager.pojo.BaseAdminPermission;
 import com.haiyu.manager.pojo.BaseAdminUser;
 import com.haiyu.manager.response.PageDataResult;
 import com.haiyu.manager.service.AdminPermissionService;
+import com.haiyu.manager.service.AdminRoleService;
 import org.apache.shiro.SecurityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,6 +36,8 @@ public class PermissionController {
 
     @Autowired
     private AdminPermissionService permissionService;
+    @Autowired
+    private AdminRoleService adminRoleService;
 
     /**
      *
@@ -143,8 +146,15 @@ public class PermissionController {
     public Map<String, Object> del(@RequestParam("id") Long id) {
         logger.info("删除权限菜单！id:" + id);
         Map<String, Object> data = new HashMap<>();
-        //删除服务类目类型
-        data = permissionService.del(id);
+        BaseAdminUser user = (BaseAdminUser) SecurityUtils.getSubject().getPrincipal();
+        List list=adminRoleService.getPermissionList(user.getId());
+        if (list.contains(id+"")){
+            data.put("code",2);
+            data.put("msg","有用户下存在此权限,无法删除");
+        }else {
+            //删除服务类目类型
+            data = permissionService.del(id);
+        }
         return data;
     }
 

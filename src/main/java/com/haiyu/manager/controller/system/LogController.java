@@ -48,8 +48,8 @@ public class LogController {
 //    @Log(busi = BusiType.LOG_MANAGE,operType = OperType.QUERY)
     @PostMapping(value = "/getLogList")
     @ResponseBody
-    public PageDataResult getLogList(@RequestParam("pageNum") Integer pageNum, @RequestParam("pageSize") Integer pageSize,/*@Valid PageRequest page,*/ LogSearchDTO logSearchDTO) {
-        logger.info("分页查询操作日志列表！搜索条件：logSearch：" + logSearchDTO + ",pageNum:" + pageNum + ",每页记录数量 pageSize:" + pageSize);
+    public PageDataResult getLogList(@RequestParam("pageNum") Integer pageNum, @RequestParam("pageSize") Integer pageSize,/*@Valid PageRequest page,*/ LogSearchDTO logSearch) {
+        logger.info("分页查询操作日志列表！搜索条件：logSearch：" + logSearch + ",pageNum:" + pageNum + ",每页记录数量 pageSize:" + pageSize);
         PageDataResult pdr = new PageDataResult();
         try {
             if(null == pageNum) {
@@ -59,7 +59,7 @@ public class LogController {
                 pageSize = 10;
             }
             // 获取用户列表
-            pdr = logService.getLogList(logSearchDTO, pageNum ,pageSize);
+            pdr = logService.getLogList(logSearch, pageNum ,pageSize);
             logger.info("操作日志列表查询=pdr:" + pdr);
 
         } catch (Exception e) {

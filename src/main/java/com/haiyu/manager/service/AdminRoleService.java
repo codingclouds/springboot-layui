@@ -29,4 +29,6 @@ public interface AdminRoleService {
 
     Map<String,Object> addRole(BaseAdminRole role);
 
+    List<String> getPermissionList(Integer id);
+
 }

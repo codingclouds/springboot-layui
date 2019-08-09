@@ -50,7 +50,7 @@ public interface LogMapper {
 
     Integer getLogListCount(LogSearchDTO logSearchDTO);
 
-    List<LogDTO> getLogList(Integer operType, String userName,String busi, String startTime, String endTime, Integer offset, Integer pageSize);
+    List<LogDTO> getLogList(LogSearchDTO logSearchDTO);
 
 
 }

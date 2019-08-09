@@ -18,10 +18,7 @@ import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @Title: AdminRoleServiceImpl
@@ -170,5 +167,16 @@ public class AdminRoleServiceImpl implements AdminRoleService {
     @Override
     public List<BaseAdminRole> getRoles() {
         return baseAdminRoleMapper.getRoleList();
+    }
+
+    @Override
+    public List<String> getPermissionList(Integer id) {
+        List<String> list = new ArrayList<>();
+        BaseAdminRole baseAdminRole = baseAdminRoleMapper.selectByPrimaryKey(id);
+        String permissions=baseAdminRole.getPermissions();
+        if (!StringUtils.isEmpty(permissions)){
+            list=Arrays.asList(permissions.split(","));
+        }
+        return list;
     }
 }

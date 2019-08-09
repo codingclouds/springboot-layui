@@ -8,7 +8,18 @@
     <!--头-->
     <div th:replace="fragments/head :: header"></div>
 
-    <div class="layui-body" style="margin: 1%">
+    <div class="layui-tab" lay-filter="demo" lay-allowclose="true" style="margin: 0 0;">
+        <ul class="layui-tab-title" style="left: 200px">
+            <li class="layui-this" lay-id="11">网站设置</li>
+            <li lay-id="22">用户管理</li>
+            <li lay-id="33">权限分配</li>
+            <li lay-id="44">商品管理</li>
+            <li lay-id="55">订单管理</li>
+        </ul>
+    </div>
+    <div class="layui-body" style="margin: 4% 1% 1% 1%;">
+        <iframe src="/log/operLog" id="external-frame" onload="setIframeHeight(this)"width="100%" height="120%" scrolling="no" frameborder="0"/>
+        <!--
 
         <form id="logSearch" class="layui-form layui-form-pane" method="post" action="" style="margin-top: 20px;">
             <div class="layui-form-item">
@@ -23,7 +34,7 @@
                 <label class="layui-form-label">操作类型</label>
                 <div class="layui-input-inline">
                     <select name="operTypeSearch"  id="operTypeSearch" > </select>
-<!--                    <input id="operTypeSearch" name="operTypeSearch" autocomplete="off" class="layui-input" type="text"/>-->
+&lt;!&ndash;                    <input id="operTypeSearch" name="operTypeSearch" autocomplete="off" class="layui-input" type="text"/>&ndash;&gt;
                 </div>
             </div>
             <div class="layui-form-item">
@@ -42,10 +53,10 @@
             </div>
         </form>
 
-        <!--<hr class="layui-bg-blue"/>-->
+        &lt;!&ndash;<hr class="layui-bg-blue"/>&ndash;&gt;
         <hr class="layui-bg-black"/>
 
-        <!--<button class="layui-btn layui-btn-normal" onclick="addUser()">开通用户</button>-->
+        &lt;!&ndash;<button class="layui-btn layui-btn-normal" onclick="addUser()">开通用户</button>&ndash;&gt;
 
         <div style="display:none;" id="currentUser"><shiro:principal property="id"></shiro:principal></div>
 
@@ -53,13 +64,13 @@
 
         <script type="text/html" id="optBar">
             <a class="layui-btn layui-btn-xs" lay-event="edit">详细</a>
-          <!--  {{#  if(d.userStatus == '0'){ }}
+          &lt;!&ndash;  {{#  if(d.userStatus == '0'){ }}
             <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="recover">恢复</a>
             {{#  } else { }}
             <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
-            {{#  } }}-->
+            {{#  } }}&ndash;&gt;
         </script>
-    </div>
+    --></div>
 
 
     <!--添加或编辑用户-->
@@ -141,7 +152,7 @@
     <!--底部-->
     <div th:replace="fragments/footer :: footer"></div>
     <script src="/js/dateUtils.js"></script>
-    <script src="/js/log/operLog.js"></script>
+    <script src="/js/manage/manage.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 
 

@@ -21,14 +21,16 @@ import java.io.Serializable;
 @Data
 public class LogSearchDTO implements Serializable {
 
-    private String userName;
+    private String userNameSearch;
 
-    private Integer operType;
+    private Integer operTypeSearch;
 
-    private String busi;
+    private String busiSearch;
 
-    private String startTime;
+    private String methodSearch;
 
-    private String endTime;
+    private String startTimeSearch;
+
+    private String endTimeSearch;
 
 }

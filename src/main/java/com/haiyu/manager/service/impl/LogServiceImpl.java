@@ -35,7 +35,7 @@ public class LogServiceImpl implements LogService {
         PageDataResult pageDataResult = new PageDataResult();
         Integer total = logMapper.getLogListCount(logSearchDTO);
         PageHelper.startPage(pageNum, pageSize);
-        List<LogDTO> logDTOList = logMapper.getLogList(logSearchDTO.getOperType(),logSearchDTO.getUserName(),logSearchDTO.getBusi(),logSearchDTO.getStartTime(),logSearchDTO.getEndTime(),(pageNum-1)*pageSize,pageSize);
+        List<LogDTO> logDTOList = logMapper.getLogList(logSearchDTO);
 
         if(logDTOList.size() != 0){
             pageDataResult.setList(logDTOList);

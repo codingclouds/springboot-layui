@@ -90,25 +90,28 @@
 
     <where>
         status_cd = 1
+      <if test="methodSearch != null and methodSearch != 0">
+        and method like '%' #{methodSearch} '%'
+      </if>
       <!-- 操作类型 -->
-      <if test="operType != null and operType != ''">
-        and oper_type = #{operType}
+      <if test="operTypeSearch != null and operTypeSearch != ''">
+        and oper_type = #{operTypeSearch}
       </if>
       <!-- 用户名 -->
-      <if test="userName != null and userName != '' ">
-        and userName LIKE '%' #{userName} '%'
+      <if test="userNameSearch != null and userNameSearch != '' ">
+        and user_name LIKE '%' #{userNameSearch} '%'
       </if>
       <!-- 业务类型 -->
-      <if test="busi != null and busi != '' ">
-        and busi  LIKE '%' #{busi} '%'
+      <if test="busiSearch != null and busiSearch != '' ">
+        and busi  LIKE '%' #{busiSearch} '%'
       </if>
       <!-- 请求时间 -->
-      <if test="startTime != null and startTime != '' ">
-        and end_time &gt;  #{startTime}
+      <if test="startTimeSearch != null and startTimeSearch != '' ">
+        and end_time &gt;  #{startTimeSearch}
       </if>
       <!-- 返回时间 -->
-      <if test="endTime != null and endTime != '' ">
-        and end_time &lt;  #{endTime}
+      <if test="endTimeSearch != null and endTimeSearch != '' ">
+        and end_time &lt;  #{endTimeSearch}
       </if>
     </where>
   </select>
@@ -129,28 +132,32 @@
 
     <where>
       status_cd = 1
+      <!-- 方法 -->
+      <if test="methodSearch != null and methodSearch != ''">
+        and method like '%' #{methodSearch} '%'
+      </if>
       <!-- 操作类型 -->
-      <if test="operType != null and operType != ''">
-        and oper_type = #{operType}
+      <if test="operTypeSearch != null and operTypeSearch != 0">
+        and oper_type = #{operTypeSearch}
       </if>
       <!-- 用户名 -->
-      <if test="userName != null and userName != '' ">
-        and userName LIKE '%' #{userName} '%'
+      <if test="userNameSearch != null and userNameSearch != '' ">
+        and user_name LIKE '%' #{userNameSearch} '%'
       </if>
       <!-- 业务类型 -->
-      <if test="busi != null and busi != '' ">
-        and busi  LIKE '%' #{busi} '%'
+      <if test="busiSearch != null and busiSearch != '' ">
+        and busi  LIKE '%' #{busiSearch} '%'
       </if>
       <!-- 请求时间 -->
-      <if test="startTime != null and startTime != '' ">
-        and end_time &gt;  #{startTime}
+      <if test="startTimeSearch != null and startTimeSearch != '' ">
+        and end_time &gt;  #{startTimeSearch}
       </if>
       <!-- 返回时间 -->
-      <if test="endTime != null and endTime != '' ">
-        and end_time &lt;  #{endTime}
+      <if test="endTimeSearch != null and endTimeSearch != '' ">
+        and end_time &lt;  #{endTimeSearch}
       </if>
       ORDER BY start_time desc
-
     </where>
   </select>
+
 </mapper>
