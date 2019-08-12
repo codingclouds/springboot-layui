@@ -112,7 +112,7 @@ $(function() {
         });
     });
     //加载下拉框
-    loadSelect();
+    // loadSelect();
 });
 
 //加载下拉框
@@ -266,6 +266,8 @@ function cleanUser(){
 }
 
 $(document).ready(function(){
+    //加载下拉框
+    loadSelect();
     $('.loading').animate({'width':'100%'},50); //第四个进度节点
     $('.loading').fadeOut();
 });
