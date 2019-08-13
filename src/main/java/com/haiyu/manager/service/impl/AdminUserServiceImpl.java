@@ -2,6 +2,9 @@ package com.haiyu.manager.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.haiyu.manager.annotation.Log;
+import com.haiyu.manager.common.staticparm.BusiType;
+import com.haiyu.manager.common.staticparm.OperType;
 import com.haiyu.manager.common.utils.DigestUtils;
 import com.haiyu.manager.dto.AdminUserDTO;
 import com.haiyu.manager.pojo.BaseAdminUser;
@@ -54,6 +57,7 @@ public class AdminUserServiceImpl implements AdminUserService{
     }
 
 
+    @Log(busi = BusiType.ADMIN_MANAGE,operType = OperType.ADD)
     @Override
     public Map<String,Object> addUser(BaseAdminUser user) {
         Map<String,Object> data = new HashMap();
@@ -101,6 +105,7 @@ public class AdminUserServiceImpl implements AdminUserService{
     }
 
 
+    @Log(busi = BusiType.ADMIN_MANAGE,operType = OperType.UPDATE)
     @Override
     public Map <String, Object> updateUser(BaseAdminUser user) {
         Map<String,Object> data = new HashMap();
@@ -137,6 +142,7 @@ public class AdminUserServiceImpl implements AdminUserService{
     }
 
 
+    @Log(busi = BusiType.ADMIN_MANAGE,operType = OperType.DEL)
     @Override
     public Map <String, Object> delUser(Integer id,Integer status) {
         Map<String, Object> data = new HashMap<>();
@@ -159,6 +165,7 @@ public class AdminUserServiceImpl implements AdminUserService{
         return data;
     }
 
+    @Log(busi = BusiType.ADMIN_MANAGE,operType = OperType.UPDATE)
     @Override
     public Map <String, Object> recoverUser(Integer id, Integer status) {
         Map<String, Object> data = new HashMap<>();

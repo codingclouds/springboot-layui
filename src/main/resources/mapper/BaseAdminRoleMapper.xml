@@ -45,4 +45,15 @@
     SELECT <include refid="baseColumn" />
     FROM base_admin_role WHERE role_status = 1
   </select>
+
+  <select id="getRole" resultMap="BaseResultMap">
+    SELECT <include refid="baseColumn" />
+    FROM base_admin_role
+    <where>
+        role_status = 1
+      <if test="id != null and id != ''">
+        AND id =#{id}
+      </if>
+    </where>
+  </select>
 </mapper>

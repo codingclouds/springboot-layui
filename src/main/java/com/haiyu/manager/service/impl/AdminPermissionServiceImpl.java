@@ -46,6 +46,7 @@ public class AdminPermissionServiceImpl implements AdminPermissionService {
     @Autowired
     private BaseAdminRoleMapper roleMapper;
 
+    @Log(busi = BusiType.PREMISSION_MANAGE,operType = OperType.ADD)
 //    @CacheEvict(value="get_permission_list_cache",key="#permission.getName()")// 清空 get_permission_list_cache 缓存
     @Override
     public Map<String, Object> addPermission(BaseAdminPermission permission) {
@@ -72,6 +73,7 @@ public class AdminPermissionServiceImpl implements AdminPermissionService {
         return data;
     }
 
+    @Log(busi = BusiType.PREMISSION_MANAGE,operType = OperType.UPDATE)
     @Override
     public Map <String, Object> updatePermission(BaseAdminPermission permission) {
         Map<String,Object> data = new HashMap();
@@ -118,6 +120,7 @@ public class AdminPermissionServiceImpl implements AdminPermissionService {
         return permissionMapper.parentPermissionList();
     }
 
+    @Log(busi = BusiType.PREMISSION_MANAGE,operType = OperType.DEL)
     @Override
     public Map <String, Object> del(long id) {
         Map<String, Object> data = new HashMap<>();

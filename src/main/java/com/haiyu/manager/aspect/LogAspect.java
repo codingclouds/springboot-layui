@@ -4,9 +4,11 @@ package com.haiyu.manager.aspect;
 import com.google.gson.Gson;
 import com.haiyu.manager.annotation.Log;
 import com.haiyu.manager.common.utils.DateUtils;
+import com.haiyu.manager.common.utils.IPThreadLocal;
 import com.haiyu.manager.common.utils.ThreadPoolUtils;
 import com.haiyu.manager.pojo.BaseAdminUser;
 import com.haiyu.manager.pojo.LogPojo;
+import com.haiyu.manager.service.AdminRoleService;
 import org.apache.shiro.SecurityUtils;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -37,6 +39,8 @@ public class LogAspect {
     private static final Logger logger = LoggerFactory.getLogger(LogAspect.class);
     @Autowired
     private ThreadPoolUtils threadPoolUtils;
+    @Autowired
+    private AdminRoleService adminRoleService;
 
     /**
      * 配置切入点
@@ -64,10 +68,10 @@ public class LogAspect {
                 log = getAnnotationLog1(pjp);
             }
             logPojo.setBusi(log.busi());
-            logPojo.setIp("127.0.0.1");
+            logPojo.setIp(IPThreadLocal.get()==null? null:IPThreadLocal.get());
             logPojo.setOperType(log.operType());
             logPojo.setMethod(pjp.getSignature().getName());
-            logPojo.setRoleName("admin");
+            logPojo.setRoleName(adminRoleService.getRole(user.getRoleId()).getRoleName());
             logPojo.setUserName(user.getSysUserName());
             logPojo.setStartTime(startTime);
             logPojo.setStatusCd(1);

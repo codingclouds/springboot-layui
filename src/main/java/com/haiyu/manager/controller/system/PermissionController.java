@@ -169,7 +169,6 @@ public class PermissionController {
      * @auther: youqing
      * @date: 2018/12/4 9:48
      */
-//    @LogPojo(busi = BusiType.PREMISSION,operType = OperType.QUERY)
     @GetMapping("getUserPerms")
     @ResponseBody
     public Map<String, Object> getUserPerms(){

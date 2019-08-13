@@ -1,6 +1,8 @@
 package com.haiyu.manager.interceptor;
 
 import com.haiyu.manager.annotation.Log;
+import com.haiyu.manager.common.utils.IPThreadLocal;
+import com.haiyu.manager.common.utils.IPUtils;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -15,9 +17,11 @@ import javax.servlet.http.HttpServletResponse;
  * @ Version    : 1.0$
  */
 public class AuthInterceptor extends HandlerInterceptorAdapter {
+
+
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-
+        IPThreadLocal.set(IPUtils.getIpAddr(request));
         if(handler.getClass().isAssignableFrom(HandlerMethod.class)){
             Log log = ((HandlerMethod) handler).getMethodAnnotation(Log.class);
 

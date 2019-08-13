@@ -19,6 +19,8 @@ public interface AdminRoleService {
 
     List<BaseAdminRole> getRoles();
 
+    BaseAdminRole getRole(Integer id);
+
     BaseAdminRole findRoleById(Integer id);
 
     Map<String,Object> updateRole(BaseAdminRole role);

@@ -14,6 +14,8 @@ public interface BaseAdminRoleMapper extends MyMapper<BaseAdminRole> {
 
     List<BaseAdminRole> getRoles();
 
+    BaseAdminRole getRole(@Param("id")Integer id);
+
     int updateRole(BaseAdminRole role);
 
     int updateRoleStatus(@Param("id") Integer id,@Param("roleStatus") Integer roleStatus);

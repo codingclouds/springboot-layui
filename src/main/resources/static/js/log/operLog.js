@@ -30,12 +30,12 @@ $(function() {
             },
             cols: [[
                 {type:'numbers'}
-                ,{field:'userName', title:'用户名',align:'center'}
-                ,{field:'roleName', title:'角色类型',align:'center',width:'8%'}
-                ,{field:'ip', title:'IP',align:'center',width:'8%'}
+                ,{field:'userName', title:'用户名',align:'center',width:'8%'}
+                ,{field:'roleName', title:'角色类型',align:'center',width:'10%'}
+                ,{field:'ip', title:'IP',align:'center',width:'12%'}
                 ,{field:'busi', title: '操作模块',align:'center',width:'8%'}
                 ,{field:'operType', title: '操作类型',align:'center',width:'8%'}
-                ,{field:'method', title: '执行方法',align:'center'}
+                ,{field:'method', title: '执行方法',align:'center',width:'10%'}
                 ,{field:'startTime', title: '执行时间',align:'center'}
                 ,{field:'endTime', title: '返回时间',align:'center'}
                 ,{field:'reqData', title: '请求参数',align:'center',hide:true}

@@ -2,6 +2,9 @@ package com.haiyu.manager.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.haiyu.manager.annotation.Log;
+import com.haiyu.manager.common.staticparm.BusiType;
+import com.haiyu.manager.common.staticparm.OperType;
 import com.haiyu.manager.dao.BaseAdminPermissionMapper;
 import com.haiyu.manager.pojo.BaseAdminRole;
 import com.haiyu.manager.dao.BaseAdminRoleMapper;
@@ -75,6 +78,7 @@ public class AdminRoleServiceImpl implements AdminRoleService {
         return pageDataResult;
     }
 
+    @Log(busi = BusiType.ROLE_MANAGE,operType = OperType.ADD)
     @Override
     public Map<String,Object> addRole(BaseAdminRole role) {
         Map<String,Object> data = new HashMap();
@@ -104,6 +108,7 @@ public class AdminRoleServiceImpl implements AdminRoleService {
         return baseAdminRoleMapper.selectByPrimaryKey(id);
     }
 
+    @Log(busi = BusiType.ROLE_MANAGE,operType = OperType.UPDATE)
     @CacheEvict(value = "user_permission" ,key = "'user_permission'+#role.id" )
     @Override
     public Map<String,Object> updateRole(BaseAdminRole role) {
@@ -128,6 +133,7 @@ public class AdminRoleServiceImpl implements AdminRoleService {
         return data;
     }
 
+    @Log(busi = BusiType.ROLE_MANAGE,operType = OperType.DEL)
     @Override
     public Map<String, Object> delRole(Integer id,Integer status) {
         Map<String, Object> data = new HashMap<>();
@@ -146,6 +152,7 @@ public class AdminRoleServiceImpl implements AdminRoleService {
         return data;
     }
 
+    @Log(busi = BusiType.ROLE_MANAGE,operType = OperType.UPDATE)
     @Override
     public Map <String, Object> recoverRole(Integer id, Integer status) {
         Map<String, Object> data = new HashMap<>();
@@ -167,6 +174,11 @@ public class AdminRoleServiceImpl implements AdminRoleService {
     @Override
     public List<BaseAdminRole> getRoles() {
         return baseAdminRoleMapper.getRoleList();
+    }
+
+    @Override
+    public BaseAdminRole getRole(Integer id) {
+        return baseAdminRoleMapper.getRole(id);
     }
 
     @Override
