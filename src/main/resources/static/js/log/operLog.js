@@ -265,12 +265,12 @@ function cleanUser(){
     $('#roleId').html("");
 }
 
-$(document).ready(function(){
-    //加载下拉框
-    loadSelect();
-    $('.loading').animate({'width':'100%'},50); //第四个进度节点
-    $('.loading').fadeOut();
-});
+// $(document).ready(function(){
+//     //加载下拉框
+//     loadSelect();
+//     $('.loading').animate({'width':'100%'},50); //第四个进度节点
+//     $('.loading').fadeOut();
+// });
 
 function jsonShowFn(json){
     if (typeof json != 'string') {

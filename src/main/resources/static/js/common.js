@@ -147,3 +147,8 @@ function isError(result){
     }
     return flag;//返回true
 }
+
+$(document).ready(function(){
+    $('.loading').animate({'width':'100%'},50); //第四个进度节点
+    $('.loading').fadeOut();
+});

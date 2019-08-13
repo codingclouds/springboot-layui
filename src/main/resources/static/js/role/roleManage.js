@@ -216,7 +216,7 @@ function cleanRole() {
     $("#permissions").val("");
 }
 
-$(document).ready(function(){
-    $('.loading').animate({'width':'100%'},50); //第四个进度节点
-    $('.loading').fadeOut();
-});
+// $(document).ready(function(){
+//     $('.loading').animate({'width':'100%'},50); //第四个进度节点
+//     $('.loading').fadeOut();
+// });
