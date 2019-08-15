@@ -6,6 +6,8 @@ var form;
 var OPERTYPE_SET={"0":"全部","1":"新增","2":"查询","3":"删除","4":"更新"}
 $(function() {
     $('.loading').animate({'width':'50%'},50); //第四个进度节点
+    //加载下拉框
+    loadSelect();
 
     layui.use('table', function(){
         var table = layui.table;
@@ -98,10 +100,10 @@ $(function() {
             ,laydate = layui.laydate;
         //日期
         laydate.render({
-            elem: '#startTime'
+            elem: '#startTimeSearch'
         });
         laydate.render({
-            elem: '#endTime'
+            elem: '#endTimeSearch'
         });
         //TODO 数据校验
         //监听搜索框
@@ -117,14 +119,19 @@ $(function() {
 
 //加载下拉框
 function loadSelect() {
-    // $('#operTypeSearch').empty();//往下拉菜单里添加元素
-    for (var i = 0; i < 5; i++) {
-        var option = new Option(OPERTYPE_SET[i],i);
-        if(i == "0") {
-            option.setAttribute("selected",'true');
+    layui.use('form', function(){
+        var form = layui.form;
+        // $('#operTypeSearch').empty();//往下拉菜单里添加元素
+        for (var i = 0; i < 5; i++) {
+            var option = new Option(OPERTYPE_SET[i],i);
+            if(i == "0") {
+                option.setAttribute("selected",'true');
+            }
+            $('#operTypeSearch').append(option);//往下拉菜单里添加元素
         }
-        $('#operTypeSearch').append(option);//往下拉菜单里添加元素
-    }
+        form.render();
+    });
+
 }
 
 //提交表单
@@ -158,7 +165,7 @@ function loadSelect() {
 //     openUser(null,"开通用户");
 // }
 function openUser(data,title){
-    $('#operType').empty();//往下拉菜单里添加元素
+    // $('#operType').empty();//往下拉菜单里添加元素
     if(data==null || data==""){
         $("#id").val("");
     }else{
@@ -267,7 +274,7 @@ function cleanUser(){
 
 $(document).ready(function(){
     //加载下拉框
-    loadSelect();
+    // loadSelect();
     // $('.loading').animate({'width':'100%'},50); //第四个进度节点
     // $('.loading').fadeOut();
 });
