@@ -10,12 +10,14 @@ import com.haiyu.manager.pojo.BaseAdminUser;
 import com.haiyu.manager.response.PageDataResult;
 import com.haiyu.manager.service.AdminPermissionService;
 import com.haiyu.manager.service.AdminRoleService;
+import io.swagger.annotations.ApiOperation;
 import org.apache.shiro.SecurityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.annotations.ApiIgnore;
 
 import java.util.HashMap;
 import java.util.List;
@@ -48,6 +50,7 @@ public class PermissionController {
      * @auther: youqing
      * @date: 2018/11/30 9:22
      */
+    @ApiIgnore
     @RequestMapping("permissionManage")
     public String permissionManage() {
         logger.info("进入权限管理");
@@ -64,6 +67,7 @@ public class PermissionController {
      * @auther: youqing
      * @date: 2018/11/30 10:30
      */
+    @ApiOperation(value = "分页获取权限列表")
     @Log(busi = BusiType.PREMISSION_MANAGE,operType = OperType.QUERY)
     @PostMapping("permissionList")
     @ResponseBody
@@ -98,6 +102,7 @@ public class PermissionController {
      * @auther: youqing
      * @date: 2018/11/30 11:35
      */
+    @ApiOperation(value = "获取根权限列表",notes = "")
     @GetMapping("parentPermissionList")
     @ResponseBody
     public List<PermissionDTO> parentPermissionList(){
@@ -117,6 +122,7 @@ public class PermissionController {
      * @auther: youqing
      * @date: 2018/11/30 9:42
      */
+    @ApiOperation(value = "设置权限[新增或更新]")
     @PostMapping("setPermission")
     @ResponseBody
     public Map<String,Object> setPermission(BaseAdminPermission permission) {
@@ -141,6 +147,7 @@ public class PermissionController {
      * @auther: youqing
      * @date: 2018/11/30 12:02
      */
+    @ApiOperation(value = "删除权限")
     @PostMapping("del")
     @ResponseBody
     public Map<String, Object> del(@RequestParam("id") Long id) {
@@ -169,6 +176,7 @@ public class PermissionController {
      * @auther: youqing
      * @date: 2018/12/4 9:48
      */
+    @ApiOperation(value = "获取登录用户权限")
     @GetMapping("getUserPerms")
     @ResponseBody
     public Map<String, Object> getUserPerms(){

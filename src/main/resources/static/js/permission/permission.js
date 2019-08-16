@@ -37,7 +37,8 @@ $(function() {
                 ,{field:'url', title:'菜单url',align:'left',width:"20%"}
                 ,{field:'createTime', title:'创建时间',align:'center'/*,width:"10%"*/}
                 ,{field:'updateTime', title:'更新时间',align:'center'/*,width:"10%"*/}
-                ,{fixed:'right',title:'操作',align:'center', toolbar:'#optBar'/*,width:"25%"*/}
+                ,{title:'操作',align:'center', toolbar:'#optBar'/*,width:"25%"*/}
+                // ,{fixed:'right',title:'操作',align:'center', toolbar:'#optBar'/*,width:"25%"*/}
             ]],
             done: function(res, curr, count){
                 $("[data-field='pname']").children().each(function(){

@@ -8,6 +8,7 @@ import com.haiyu.manager.dto.UserSearchDTO;
 import com.haiyu.manager.pojo.BaseAdminUser;
 import com.haiyu.manager.response.PageDataResult;
 import com.haiyu.manager.service.AdminUserService;
+import io.swagger.annotations.ApiOperation;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.DisabledAccountException;
@@ -19,6 +20,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.annotations.ApiIgnore;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -51,6 +53,7 @@ public class UserController {
      * @auther: youqing
      * @date: 2018/11/22 15:47
      */
+    @ApiIgnore
     @RequestMapping("login")
     @ResponseBody
     public Map<String,Object> login(HttpServletRequest request, LoginDTO loginDTO, HttpSession session){
@@ -112,6 +115,7 @@ public class UserController {
      * @auther: youqing
      * @date: 2018/11/22 17:26
      */
+    @ApiIgnore(value = "修改密码")
     @RequestMapping("setPwd")
     @ResponseBody
     public Map<String,Object> setP(String pwd, String isPwd){
@@ -147,6 +151,7 @@ public class UserController {
      * @auther: youqing
      * @date: 2018/11/21 13:50
      */
+    @ApiIgnore
     @RequestMapping("/userManage")
     public String userManage() {
         return "/user/userManage";
@@ -161,6 +166,7 @@ public class UserController {
      * @auther: youqing
      * @date: 2018/11/21 11:10
      */
+    @ApiOperation(value = "分页查询用户列表")
     @Log(busi = BusiType.ADMIN_MANAGE,operType = OperType.QUERY)
     @PostMapping(value = "/getUserList")
     @ResponseBody
@@ -195,6 +201,7 @@ public class UserController {
      * @auther: youqing
      * @date: 2018/11/22 10:14
      */
+    @ApiOperation(value = "新增和更新系统用户")
     @RequestMapping(value = "/setUser", method = RequestMethod.POST)
     @ResponseBody
     public Map<String,Object> setUser(BaseAdminUser user) {
@@ -218,6 +225,7 @@ public class UserController {
      * @auther: youqing
      * @date: 2018/11/22 11:59
      */
+    @ApiOperation(value = " 删除/恢复 用户")
     @RequestMapping(value = "/updateUserStatus", method = RequestMethod.POST)
     @ResponseBody
     public Map<String, Object> updateUserStatus(@RequestParam("id") Integer id,@RequestParam("status") Integer status) {

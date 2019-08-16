@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 /**
  * @ Author     : wzt.
  * @ Date       : Created in 10:33 2019/8/5
- * @ Description: 自定义日志注解
+ * @ Description: 自定义日志注解，注解于方法上用于记录用户操作记录
  * @ Modified By:
  * @ Version    : 1.0$
  */

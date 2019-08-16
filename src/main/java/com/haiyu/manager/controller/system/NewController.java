@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * @ Author     : wzt.
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @ Modified By:
  * @ Version    : $
  */
+@ApiIgnore
 @Controller
 @RequestMapping("new")
 public class NewController {

@@ -6,6 +6,7 @@ import com.haiyu.manager.common.staticparm.OperType;
 import com.haiyu.manager.dto.LogSearchDTO;
 import com.haiyu.manager.response.PageDataResult;
 import com.haiyu.manager.service.LogService;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * @ Author     : wzt.
@@ -31,6 +33,7 @@ public class LogController {
     @Autowired
     private LogService logService;
 
+    @ApiIgnore
     @RequestMapping("/operLog")
     public String operLog() {
         return "/log/operLog";
@@ -46,6 +49,7 @@ public class LogController {
      * @date: 2018/11/21 11:10
      */
 //    @Log(busi = BusiType.LOG_MANAGE,operType = OperType.QUERY)
+    @ApiOperation(value = "分页查询日志（条件）",notes = "")
     @PostMapping(value = "/getLogList")
     @ResponseBody
     public PageDataResult getLogList(@RequestParam("pageNum") Integer pageNum, @RequestParam("pageSize") Integer pageSize,/*@Valid PageRequest page,*/ LogSearchDTO logSearch) {

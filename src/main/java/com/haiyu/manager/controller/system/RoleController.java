@@ -7,12 +7,14 @@ import com.haiyu.manager.common.utils.ThreadPoolUtils;
 import com.haiyu.manager.pojo.BaseAdminRole;
 import com.haiyu.manager.response.PageDataResult;
 import com.haiyu.manager.service.AdminRoleService;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.annotations.ApiIgnore;
 
 import java.util.HashMap;
 import java.util.List;
@@ -38,6 +40,7 @@ public class RoleController {
      * 跳转到角色管理
      * @return
      */
+    @ApiIgnore
     @RequestMapping("/roleManage")
     public String toPage() {
         logger.info("进入角色管理");
@@ -53,6 +56,7 @@ public class RoleController {
      * @auther: youqing
      * @date: 2018/11/21 14:29
      */
+    @ApiOperation(value = "分页获取角色列表",notes = "")
     @Log(busi = BusiType.ROLE_MANAGE,operType = OperType.QUERY)
     @GetMapping(value = "/getRoleList")
     @ResponseBody
@@ -86,6 +90,7 @@ public class RoleController {
      * @auther: youqing
      * @date: 2018/12/3 13:22
      */
+    @ApiOperation(value = "获取角色列表",notes = "")
     @GetMapping("getRoles")
     @ResponseBody
     public List<BaseAdminRole> getRoles(){
@@ -95,13 +100,14 @@ public class RoleController {
 
     /**
      *
-     *述: 设置角色[新增或更新]
+     * 功能描述: 设置角色[新增或更新]
      *
      * @param:
      * @return:
      * @auther: youqing
      * @date: 2018/12/3 10:54
      */
+    @ApiOperation(value = "新增或编辑角色" ,notes = "")
     @PostMapping("setRole")
     @ResponseBody
     public Map<String,Object> setRole(BaseAdminRole role) {
@@ -127,6 +133,7 @@ public class RoleController {
      * @auther: youqing
      * @date: 2018/11/21 16:00
      */
+    @ApiOperation(value = "删除或恢复角色")
     @PostMapping("updateRoleStatus")
     @ResponseBody
     public Map<String,Object> updateRoleStatus(@RequestParam("id") int id,@RequestParam("status") Integer status) {

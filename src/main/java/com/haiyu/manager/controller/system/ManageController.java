@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * @ Author     : wzt.
@@ -19,6 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @ Modified By:
  * @ Version    : 1.0$
  */
+@ApiIgnore
 @Controller
 @RequestMapping("manage")
 public class ManageController {
