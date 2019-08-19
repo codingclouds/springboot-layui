@@ -16,12 +16,13 @@ CREATE TABLE `log` (
   `busi` varchar(50) DEFAULT NULL COMMENT '业务模块',
   `oper_type` int(2) DEFAULT NULL COMMENT '操作类型：1-增；2-查；删-3；改-4；',
   `method` varchar(50) DEFAULT NULL COMMENT '调用方法',
+  `req_data` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci COMMENT '请求参数',
+  `resp_data` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci COMMENT '返回参数',
   `start_time` varchar(50) DEFAULT NULL COMMENT '开始时间',
   `end_time` varchar(50) DEFAULT NULL COMMENT '结束时间',
   `status_cd` int(1) DEFAULT NULL COMMENT '状态：0-无效；1-有效；',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
-
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of base_admin_user
