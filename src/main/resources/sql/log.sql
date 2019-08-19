@@ -1,4 +1,10 @@
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
 
+-- ----------------------------
+-- Table structure for base_admin_user
+-- ----------------------------
+DROP TABLE IF EXISTS `log`;
 -- ----------------------------
 -- Table structure for log
 -- ----------------------------
@@ -14,7 +20,7 @@ CREATE TABLE `log` (
   `end_time` varchar(50) DEFAULT NULL COMMENT '结束时间',
   `status_cd` int(1) DEFAULT NULL COMMENT '状态：0-无效；1-有效；',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 
 -- ----------------------------
