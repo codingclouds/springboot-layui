@@ -39,7 +39,7 @@
                 return {
                     l: w,
                     z: o(v, "zIndex", -1),
-                    o: o(v, "opacity", 0.6),
+                    o: o(v, "opacity", 1),
                     c: o(v, "color", "0,0,0"),
                     n: o(v, "count", 99)
                 }
@@ -77,7 +77,7 @@
                     max: 20000
                 };
             u.id = c;
-            u.style.cssText = "position:fixed;top:0;left:0;z-index:" + s.z + ";opacity:" + s.o;
+            u.style.cssText = "position:fixed;top:0;left:0;z-index:" + s.z + ";opacity:" + 1;
             j("body")[0].appendChild(u);
             k(), window.onresize = k;
             window.onmousemove = function (i) {
