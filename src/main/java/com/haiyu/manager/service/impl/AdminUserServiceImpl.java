@@ -44,7 +44,7 @@ public class AdminUserServiceImpl implements AdminUserService{
         Integer total = baseAdminUserMapper.getUserListCount(userSearch.getSysUserName(),userSearch.getUserPhone(),userSearch.getStartTime(),userSearch.getEndTime());
 
         PageHelper.startPage(pageNum, pageSize);
-        List<AdminUserDTO> baseAdminUsers = baseAdminUserMapper.getUserList(userSearch.getSysUserName(),userSearch.getUserPhone(),userSearch.getStartTime(),userSearch.getEndTime(),(pageNum-1)*pageSize,pageSize);
+        List<AdminUserDTO> baseAdminUsers = baseAdminUserMapper.getUserList(userSearch.getSysUserName(),userSearch.getUserPhone(),userSearch.getStartTime(),userSearch.getEndTime());
 
         if(baseAdminUsers.size() != 0){
 //            PageInfo<AdminUserDTO> pageInfo = new PageInfo<>(baseAdminUsers);
