@@ -35,20 +35,21 @@ public class LogController {
 
     @ApiIgnore
     @RequestMapping("/operLog")
+//    @Log(busi = BusiType.LOG_MANAGE,operType = OperType.QUERY,record = false)
     public String operLog() {
         return "/log/operLog";
     }
 
     /**
      *
-     * 功能描述: 分页查询用户列表
+     * 功能描述: 分页查询操作日志列表
      *
      * @param:
      * @return:
      * @auther: youqing
      * @date: 2018/11/21 11:10
      */
-//    @Log(busi = BusiType.LOG_MANAGE,operType = OperType.QUERY)
+//    @Log(busi = BusiType.LOG_MANAGE,operType = OperType.QUERY,record = false)
     @ApiOperation(value = "分页查询日志（条件）",notes = "")
     @PostMapping(value = "/getLogList")
     @ResponseBody

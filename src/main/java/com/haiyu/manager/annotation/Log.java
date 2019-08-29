@@ -27,4 +27,6 @@ public @interface Log {
     /** 是否跳过权限验证：默认不跳过（true），跳过（false）*/
     boolean validate() default true;
 
+    boolean record() default true;
+
 }

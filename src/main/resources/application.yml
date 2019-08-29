@@ -4,6 +4,9 @@ server:
 spring:
   application:
       name: springboot-layui
+  #设置静态资源路径，多个以逗号分隔
+  resources:
+      static-locations: classpath:static/,file:static/
   datasource:
     druid:
       url: jdbc:mysql://localhost:3306/haiyu?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
@@ -35,11 +38,12 @@ spring:
 mybatis:
     mapper-locations: classpath:mapper/*.xml
 
-#设置静态资源路径，多个以逗号分隔
-spring.resources.static-locations: classpath:static/,file:static/
+
 
 # 打印sql
 logging:
   level:
     com.haiyu.manager.dao: DEBUG
 
+main:
+  allow-bean-definition-overriding: true

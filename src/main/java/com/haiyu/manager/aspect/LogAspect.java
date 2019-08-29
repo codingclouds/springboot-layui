@@ -67,25 +67,31 @@ public class LogAspect {
             if (log == null) {
                 log = getAnnotationLog1(pjp);
             }
-            logPojo.setBusi(log.busi());
-            logPojo.setIp(IPThreadLocal.get()==null? null:IPThreadLocal.get());
-            logPojo.setOperType(log.operType());
-            logPojo.setMethod(pjp.getSignature().getName());
-            logPojo.setRoleName(adminRoleService.getRole(user.getRoleId()).getRoleName());
-            logPojo.setUserName(user.getSysUserName());
-            logPojo.setStartTime(startTime);
-            logPojo.setStatusCd(1);
-            logPojo.setReqData(gson.toJson(pjp.getArgs()));
-            //执行请求的方法
-            result = pjp.proceed();
+            if (log.record()){
+                logPojo.setBusi(log.busi());
+                logPojo.setIp(IPThreadLocal.get()==null? null:IPThreadLocal.get());
+                logPojo.setOperType(log.operType());
+                logPojo.setMethod(pjp.getSignature().getName());
+                logPojo.setRoleName(adminRoleService.getRole(user.getRoleId()).getRoleName());
+                logPojo.setUserName(user.getSysUserName());
+                logPojo.setStartTime(startTime);
+                logPojo.setStatusCd(1);
+                logPojo.setReqData(gson.toJson(pjp.getArgs()));
+                //执行请求的方法
+                result = pjp.proceed();
 
-            logPojo.setRespData(gson.toJson(result));
-            logPojo.setEndTime(DateUtils.getCurrentDate("yyyy-MM-dd HH:mm:ss:SSS"));
-            threadPoolUtils.addLog(logPojo);
+                logPojo.setRespData(gson.toJson(result));
+                logPojo.setEndTime(DateUtils.getCurrentDate("yyyy-MM-dd HH:mm:ss:SSS"));
+
+                threadPoolUtils.addLog(logPojo);
+            }
+
         } catch (Throwable throwable) {
             throwable.printStackTrace();
             logger.error(throwable.getMessage(), throwable);
-            throw new RuntimeException(throwable);
+//            throw new RuntimeException(throwable);
+            throwable.printStackTrace();
+
         } finally {
         }
         return result;

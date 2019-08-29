@@ -39,4 +39,5 @@ public class test {
         System.out.println(result2);//输出3.0
         System.out.println(result3);//输出3.0
     }
+
 }
