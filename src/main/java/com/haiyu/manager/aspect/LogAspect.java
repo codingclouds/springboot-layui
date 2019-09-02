@@ -65,7 +65,7 @@ public class LogAspect {
         Gson gson = new Gson();
         try {
             if (log == null) {
-                log = getAnnotationLog1(pjp);
+                log = getAnnotationLog(pjp);
             }
             if (log.record()){
                 logPojo.setBusi(log.busi());
@@ -186,16 +186,14 @@ public class LogAspect {
             return null;
         }
 
-    private static Log getAnnotationLog1(ProceedingJoinPoint joinPoint) throws Exception {
-        Signature signature = joinPoint.getSignature();
-        MethodSignature methodSignature = (MethodSignature) signature;
-        Method method = methodSignature.getMethod();
-        if (method != null) {
-            return method.getAnnotation(Log.class);
+        private static Log getAnnotationLog1(ProceedingJoinPoint joinPoint) throws Exception {
+            Signature signature = joinPoint.getSignature();
+            MethodSignature methodSignature = (MethodSignature) signature;
+            Method method = methodSignature.getMethod();
+            if (method != null) {
+                return method.getAnnotation(Log.class);
+            }
+            return null;
         }
-        return null;
-    }
-
-
 
 }
