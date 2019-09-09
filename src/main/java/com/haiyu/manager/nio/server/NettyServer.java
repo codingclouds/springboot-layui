@@ -12,7 +12,7 @@ import io.netty.handler.codec.string.StringDecoder;
 /**
  * @ Author     : wzt.
  * @ Description: Netty Server 类
- * * @ Date       : Created in 19-9-2
+ * @ Date       : Created in 19-9-2
  * @ Modified By:
  * @ Version    : v1.0
  */
