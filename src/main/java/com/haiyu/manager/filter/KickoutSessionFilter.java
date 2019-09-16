@@ -179,8 +179,7 @@ public class KickoutSessionFilter extends AccessControlFilter {
         }
     }
 
-    private boolean isAjaxResponse(ServletRequest request,
-                                   ServletResponse response) throws IOException {
+    private boolean isAjaxResponse(ServletRequest request, ServletResponse response) throws IOException {
         // ajax请求
         /**
          * 判断是否已经踢出
