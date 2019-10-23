@@ -47,6 +47,12 @@ public class BaseAdminPermission {
     private Integer delFlag;
 
     /**
+     * 图标地址
+     */
+    @Column(name = "icon")
+    private String icon;
+
+    /**
      * @return id
      */
     public Integer getId() {
@@ -198,5 +204,13 @@ public class BaseAdminPermission {
                 ", updateTime='" + updateTime + '\'' +
                 ", delFlag=" + delFlag +
                 '}';
+    }
+
+    public String getIcon() {
+        return icon;
+    }
+
+    public void setIcon(String icon) {
+        this.icon = icon;
     }
 }

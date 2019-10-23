@@ -33,5 +33,7 @@ public class PermissionDTO implements Serializable {
 
     private Integer delFlag;
 
+    private String icon;
+
     List<PermissionDTO> childrens;
 }

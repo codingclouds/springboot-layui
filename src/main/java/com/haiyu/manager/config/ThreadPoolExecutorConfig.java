@@ -24,9 +24,10 @@ public class ThreadPoolExecutorConfig {
 
     @Bean("taskExecutor")
     public Executor taskExecutor() {
+        //keepAliveTime 允许线程的空闲时间60秒：当超过了核心线程出之外的线程在空闲时间到达之后会被销毁
         return new ThreadPoolExecutor(THREADS,
                 2 * THREADS,
-                5, TimeUnit.SECONDS,
+                60, TimeUnit.SECONDS,
                 new LinkedBlockingQueue<>(1024),
                 threadFactory, (r, executor) -> {
             // 打印日志,添加监控等

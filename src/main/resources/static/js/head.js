@@ -23,12 +23,12 @@ $(function(){
 })
 var getMenus=function(data){
     //回显选中
-    var ul=$("<ul class='layui-nav layui-nav-tree' lay-filter='test'></ul>");
+    var ul=$("<ul class='layui-nav layui-nav-tree' lay-filter=' ' style='width: 220px;'></ul>");
     for(var i=0;i < data.length;i++){
         var node=data[i];
         console.log(node)
         var li=$("<li class='layui-nav-item' flag='"+node.id+"'></li>");
-        var a=$("<a class='' href='javascript:;'>"+node.name+"</a>");
+        var a=$("<a class='' href='javascript:;'><img src='"+node.icon+"'/><span style='margin-left: 10px'>"+node.name+"</span></a>");
         li.append(a);
         //获取子节点
         var childArry = node.childrens;
@@ -37,7 +37,7 @@ var getMenus=function(data){
             a.append("<span class='layui-nav-more'></span>");
             var dl=$("<dl class='layui-nav-child'></dl>");
             for (var y in childArry) {
-                var dd=$("<dd><a href='"+childArry[y].url+"'><span style='margin-left: 20px'>"+childArry[y].name+"</span></a></dd>");
+                var dd=$("<dd><a href='"+childArry[y].url+"'><img  src='/images/iocn/secondmenu.svg' style='margin: 0 10px 0 20px;'/><span>"+childArry[y].name+"</span></a></dd>");
                 //判断选中状态
                 if(pathUri.indexOf(childArry[y].url)>0){
                     li.addClass("layui-nav-itemed");
